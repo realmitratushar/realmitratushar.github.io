@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+styles:
+    - styles.css
+    
+website:
+  title: "Neil Rohan Dcruze"
+  #output-dir: docs
+  navbar:
+    #background: "#112a39"
+    right:
+      - about.qmd
+      - text: "Blog"
+        file: index.qmd
+      - icon: github
+        href: https://github.com/dcruzeneil
+      - icon: twitter
+        href: https://twitter.com/dcruze_neil
+      - icon: linkedin
+        href: https://www.linkedin.com/in/neildcruze/
+
+format:
+  html:
+    title-block-banner: img/starry_night.jpg
+    title-block-banner-color: white
+    theme: cosmo
+    css: styles.css
+
+
+
+
+

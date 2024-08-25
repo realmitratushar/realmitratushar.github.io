@@ -1,0 +1,19 @@
+---
+title: "About"
+image: profile.jpeg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/dcruze_neil
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/neildcruze/
+    - icon: github
+      text: Github
+      href: https://github.com/dcruzeneil
+
+---
+
+Neil Rohan Dcruze

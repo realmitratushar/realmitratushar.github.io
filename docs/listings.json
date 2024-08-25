@@ -1,0 +1,25 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/little-endian-explained/index.html",
+      "/posts/pwnable-kr-ctfs/index.html",
+      "/posts/stack-based-buffer-overflow/index.html",
+      "/posts/renaming-files-ufs2/index.html",
+      "/posts/unsupervised-learning/index.html",
+      "/posts/auditing-allocative-bias/index.html",
+      "/posts/linear-regression/index.html",
+      "/posts/kernel-logistic-regression/index.html",
+      "/posts/gradient-descent/index.html",
+      "/posts/perceptron-proof/index.html",
+      "/posts/perceptron-algorithm/index.html"
+    ]
+  },
+  {
+    "listing": "/project.html",
+    "items": [
+      "/projects/custom-memory-allocator/index.html",
+      "/projects/mental-health-analysis/index.html"
+    ]
+  }
+]
