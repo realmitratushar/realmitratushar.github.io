@@ -6,14 +6,19 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com/dcruze_neil
+      href: https://x.com/mitratushar04
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/neildcruze/
+      href: https://www.linkedin.com/in/tushar-mitra-867028261/
     - icon: github
       text: Github
-      href: https://github.com/dcruzeneil
-
+      href: https://github.com/realmitratushar
+    - icon: huggingface
+      text: HuggingFace
+      href: https://huggingface.co/realmitratushar
+    - icon: leetcode
+      text: LeetCode
+      href: https://leetcode.com/u/mitratushar04/
 ---
 
-Neil Rohan Dcruze
+Tushar Mitra

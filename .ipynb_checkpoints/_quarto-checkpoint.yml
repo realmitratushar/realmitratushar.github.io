@@ -6,7 +6,7 @@ styles:
     - styles.css
     
 website:
-  title: "Neil Rohan Dcruze"
+  title: "Tushar Mitra"
   #output-dir: docs
   navbar:
     #background: "#112a39"
@@ -15,11 +15,15 @@ website:
       - text: "Blog"
         file: index.qmd
       - icon: github
-        href: https://github.com/dcruzeneil
+        href: https://github.com/realmitratushar
       - icon: twitter
-        href: https://twitter.com/dcruze_neil
+        href: https://x.com/mitratushar04
       - icon: linkedin
-        href: https://www.linkedin.com/in/neildcruze/
+        href: https://www.linkedin.com/in/tushar-mitra-867028261/
+      - icon: huggingface
+        href: https://huggingface.co/realmitratushar
+      - icon: leetcode
+        href: https://leetcode.com/u/mitratushar04/
 
 format:
   html:
