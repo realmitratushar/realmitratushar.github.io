@@ -1,242 +1,360 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tushar Mitra — Personal Website</title>
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Regia+Mono&display=swap" rel="stylesheet">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <!-- Devicon (programming languages & dev tools icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
+  <!-- Font Awesome (fallback / extra icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<title>Tushar Mitra</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
-  vertical-align: middle;
-}
-</style>
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
 
+  <!-- fav icon (optional) -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 20,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
-  }
-}</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-
-<link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Tushar Mitra — Final year CSE student. Portfolio site." />
 </head>
+<body>
+  <header class="site-header">
+    <div class="brand"><b>&lt;Tushar Mitra&gt;</b></div>
 
-<body class="nav-fixed fullcontent">
-
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="navbar-container container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="index-2.html" aria-current="page">Home</a>
-  </li>  
-    <a class="nav-link" href="cv.pdf">CV</a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-      </div> <!-- /container-fluid -->
+    <nav class="top-nav">
+      <a href="#about" class="nav-link">&lt;about&gt;</a>
+      <a href="#skills" class="nav-link">&lt;skills&gt;</a>
+      <a href="#projects" class="nav-link">&lt;projects&gt;</a>
+      <a href="#experience" class="nav-link">&lt;experience&gt;</a>
+      <a href="#contact" class="nav-link">&lt;contact&gt;</a>
     </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    
-<!-- main -->
-<div class="quarto-about-jolla">
-  <img src="profile.jpeg" class="about-image
-  round " style="height: 14em; width: 14em; margin-left: -40px; margin-top: -60px;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h3 class="title" style="margin-left: -370px; margin-top: -10px;">Tushar Mitra</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content" style="margin-top: -5px; margin-left: -615px;">
-<p>Kalinga Institute of Industrial Technology<br>2026<br>Bachelor of Technology<br>Major : Computer Science and Engineering<br>Minor : Financial Economics(Using Data Analytics)</p>
 
-  <h1 style="margin-left: 490px; margin-top: -400px;"> Hello, </h1>
-  <p style="margin-left: 905px; margin-top: 0px; text-align: left;"> I am Tushar Mitra, a 3rd Year B.Tech CSE student at KIIT Univeristy. By exploring varying areas of computing, I have developed a unique blend of skills. However, my academic journey has sparked a keen interest in <b>Data Science</b> and its related fields such as <b>Machine Learning</b>, <b>Deep Learning</b>, <b>Big Data</b>, <b>Natural Language Processing</b>, <b>Computer Vision</b> and Data Visualization tools like <b>PowerBI</b> and <b>Tableau</b>. These are the areas which I find both challenging and rewarding. 
-    <br><br>
-    This website is my platform for sharing the projects that I work on, and the technologies that I encounter in my explorations.
-  </p>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+  </header>
 
-  <h4 style="margin-left: 450px; margin-top: 0px;"> Skills </h4>
-  <p style="text-align: left; margin-left: 905px;">
-    <b>Programming Languages:</b> Java, C, Python
-    <br><b>Specialization:</b> Machine Learning, Deep Learning, Object Detection, Computer Vision
-    <br><b>Development:</b> HTML, CSS, SQL
-    <br><b>Cloud Platforms:</b> Amazon AWS, Google Cloud Platform
-    <br><b>Computer Fundamentals:</b>Data Structures, Algorithms, Object Oriented Programming, Database Management System, Operating System, Computer Networks
-    <br><b>Currently Learning:</b>Natural Language Processing, Big Data, Power BI, Tableau, JavaScript, Kotlin
-  </p>
-</main> 
-  <hr class="about-sep" style="margin-top: -20px;">
-   <div class="about-links" style="margin-top: 0px;">
-  <a href="https://x.com/mitratushar04" class="about-link">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://www.linkedin.com/in/tushar-mitra-867028261/" class="about-link">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/realmitratushar" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://huggingface.co/realmitratushar" class="about-link">
-    <i class="far fa-grin-alt"></i>
-     <span class="about-link-text">HuggingFace</span>
-  </a>
-  <a href="https://leetcode.com/u/mitratushar04/" class="about-link">
-    <i class="fas fa-code"></i>
-     <span class="about-link-text">Leetcode</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    setTimeout(function() {
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href.html).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
-    });
-  }
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
-      });
-      return popup.innerHTML;
-    });
-  }
-});
-</script>
-</div> <!-- /content -->
+  <main>
+    <!-- HERO / ABOUT -->
+    <section id="about" class="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <div class="avatar-wrap">
+            <img src="assets/profile.jpg" alt="Tushar Mitra" class="avatar" />
+          </div>
+        </div>
+        <div class="hero-right">
+          <p class="greeting">Hello, I'm</p>
+          <h1 class="name">Tushar Mitra</h1>
+          <p class="tagline">Final Year Computer Science Student | Data Science</p>
 
+          <p class="about-text">By exploring varying areas of computing, I have developed a unique blend of skills. However, my academic journey has sparked a keen interest in Data Science and its related fields such as Machine Learning, Deep Learning, Big Data, Natural Language Processing, Computer Vision and Data Visualization tools like PowerBI and Tableau. These are the areas which I find both challenging and rewarding. This website is my platform for sharing the projects that I work on, and the technologies that I encounter in my explorations.</p>
 
+          <div class="badges">
+            <section id="education" class="section">
+              <h2>Education</h2>
+              <div class="education-item">
+                <img src="assets/icons/kiit.png" alt="KIIT Logo" class="edu-logo">
+                <div>
+                  <h3>Kalinga Institute of Industrial Technology</h3>
+                  <h5>Bhubaneswar, Odisha</h5>
+                  <h4>Bachelor of Technology</h4>
+                  <h4>Major : Computer Science and Engineering</h4>
+                  <h4>Minor : Financial Economics (with Data Analytics)</h4>
+                  <h5><b>2022 - 2026</b></h5>
+                </div>
+              </div>
+              <div class="education-item">
+                <img src="assets/icons/loyola.png" alt="Loyola Logo" class="edu-logo">
+                <div>
+                  <h3>Loyola High School</h3>
+                  <h5>Patna, Bihar</h5>
+                  <h5><b>2009-2021</b></h5>
+                </div>
+              </div>
+            </section>
+          </div>
 
+          <div class="buttons">
+          <!-- View Resume -->
+            <a href="assets/resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">View Resume</a>
+
+          <!-- Contact Info -->
+            <a href="#contact" class="btn btn-primary">Contact Info</a>
+          </div>
+
+          <!-- NEW LINE for icons -->
+          <div class="social-buttons">
+          <!-- GitHub -->
+            <a href="https://github.com/realmitratushar" class="btn btn-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+
+          <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/tushar-mitra-867028261/" class="btn btn-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://x.com/mitratushar04" target="_blank" aria-label="Twitter" class="btn btn-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://huggingface.co/realmitratushar" target="_blank" aria-label="HuggingFace" class="btn btn-icon"><i class="fas fa-brain"></i></a>
+            <a href="https://leetcode.com/u/mitratushar04/" target="_blank" aria-label="LeetCode" class="btn btn-icon"><i class="fas fa-code"></i></a>
+            <a href="https://codeforces.com/profile/mitratushar" target="_blank" aria-label="Codeforces" class="btn btn-icon"><i class="fas fa-bolt"></i></a>
+            <a href="https://www.hackerrank.com/profile/tushar24_mitra" target="_blank" aria-label="CodeChef" class="btn btn-icon"><i class="fas fa-utensils"></i></a>
+            <a href="https://www.hackerrank.com/YOUR_HACKERRANK" target="_blank" aria-label="HackerRank" class="btn btn-icon"><i class="fab fa-hackerrank"></i></a>
+            <a href="https://www.hackerearth.com/@tushar24.mitra" target="_blank" aria-label="HackerEarth" class="btn btn-icon"><i class="fas fa-laptop-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2 class="section-title">&lt;skills&gt;</h2>
+      <div class="skills-grid">
+        <div class="skill-col">
+          <h3>Programming Languages</h3>
+          <ul class="skill-list">
+            <li><i class="devicon-c-plain colored skill-icon"></i><span>C</span></li>
+            <li><i class="devicon-python-plain colored skill-icon"></i><span>Python</span></li>
+            <li><i class="devicon-java-plain colored skill-icon"></i><span>Java</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-col">
+          <h3>Development</h3>
+          <ul class="skill-list">
+            <li><i class="devicon-html5-plain colored skill-icon"></i><span>HTML5</span></li>
+            <li><i class="devicon-css3-plain colored skill-icon"></i><span>CSS3</span></li>
+            <li><i class="devicon-mysql-plain colored skill-icon"></i><span>MySQL</span></li>
+            <li><i class="devicon-mongodb-plain colored skill-icon"></i><span>MongoDB</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-col">
+          <h3>Data Science & ML</h3>
+          <ul class="skill-list">
+            <li><img src="assets/icons/pytorch.png" class="skill-img" alt="PyTorch"/><span>PyTorch</span></li>
+            <li><img src="assets/icons/tensorflow.png" class="skill-img" alt="Tensorflow"/><span>Tensorflow</span></li>
+            <li><img src="assets/icons/scikit-learn.png" class="skill-img" alt="Scikit-Learn"/><span>Scikit-Learn</span></li>
+            <li><i class="devicon-pandas-plain colored skill-icon"></i><span>Pandas</span></li>
+            <li><i class="devicon-numpy-original colored skill-icon"></i><span>Numpy</span></li>
+            <li><img src="assets/icons/matplotlib.png" class="skill-img" alt="Matplotlib"/><span>Matplotlib</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-col">
+          <h3>Tools & Operating Systems</h3>
+          <ul class="skill-list">
+            <li><i class="devicon-git-plain colored skill-icon"></i><span>Git</span></li>
+            <li><i class="devicon-docker-plain colored skill-icon"></i><span>Docker</span></li>
+            <li><i class="devicon-linux-plain colored skill-icon"></i><span>Linux</span></li>
+            <li><i class="devicon-bash-plain colored skill-icon"></i><span>Shell</span></li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3>Cloud Computing</h3>
+          <ul class="skill-list">
+            <li><i class="devicon-amazonwebservices-plain colored skill-icon"></i><span>Amazon Web Services</span></li>
+            <li><i class="devicon-googlecloud-plain colored skill-icon"></i><span>Google Cloud Platform</span></li>
+            <li><i class="devicon-azure-plain colored skill-icon"></i><span>Azure</span></li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="section-title">&lt;projects&gt;</h2>
+
+      <div class="projects-grid">
+        <!-- card 1 -->
+        <article class="card">
+          <img src="assets/images/micro.png" alt="Micro Objet Detection" class="card-img"/>
+          <div class="card-body">
+            <h3>Micro Objet Detection</h3>
+            <div class="tags"><span>Object Detection</span><span>YOLO</span></div>
+            <p>Implemented a micro object detection project for detecting small objects like buildings, planes, boats and vehicles in satellite imagery using YOLOv12s.</p>
+            <a class="card-link" href="https://github.com/realmitratushar/micro-object-detection">URL</a>
+          </div>
+        </article>
+
+        <!-- card 2 -->
+        <article class="card">
+          <img src="assets/images/bot.png" alt="Talk to Pdf" class="card-img"/>
+          <div class="card-body">
+            <h3>Talk to Pdf</h3>
+            <div class="tags"><span>Generative AI</span><span>Langchain</span><span>FAISS</span><span>Streamlit</div>
+            <p>Implemented a Generative AI project in a web app to upload PDFs and respond to queries related to those PDFs. </p>
+            <a class="card-link" href="https://github.com/realmitratushar/Talk-with-PDF">URL</a>
+          </div>
+        </article>
+
+        <!-- card 3 -->
+        <article class="card">
+          <img src="assets/images/weather.png" alt="Weather Web App" class="card-img"/>
+          <div class="card-body">
+            <h3>Weather Web App</h3>
+            <div class="tags"><span>HTML</span><span>Python</span><span>Flask</span></div>
+            <p>Implemented a weather web app using python, flask and html. Hosted on onrender. </p>
+            <a class="card-link" href="https://github.com/realmitratushar/weather-app">URL</a>
+          </div>
+        </article>
+
+      </div>
+      <div class="projects-grid">
+        <!-- card 1 -->
+        <article class="card">
+          <img src="assets/images/vision.png" alt="Vision-based Attendance System" class="card-img"/>
+          <div class="card-body">
+            <h3>Vision-based Attendance System</h3>
+            <div class="tags"><span>Computer Vision</span><span>Python</span><span>Streamlit</span></div>
+            <p>Implemented a Vision-based attendance system using computer vision and haarcascade frontalface classifier. </p>
+            <a class="card-link" href="https://github.com/realmitratushar/vision-based-attendance-system">URL</a>
+          </div>
+        </article>
+
+        <!-- card 2 -->
+        <article class="card">
+          <img src="assets/images/etl.png" alt="ETL Pipeline" class="card-img"/>
+          <div class="card-body">
+            <h3>ETL Pipeline</h3>
+            <div class="tags"><span>PostgreSQL</span><span>Apache Airflow</span><span>Astronomer</span></div>
+            <p>Implemented an ETL (Extract, Transform, Load) Pipeline using Apache Airflow, Astronomer, PostgreSQL and Open Meteo API. </p>
+            <a class="card-link" href="https://github.com/realmitratushar/etl-pipeline">URL</a>
+          </div>
+        </article>
+
+        <!-- card 3 -->
+        <article class="card">
+          <img src="assets/images/creditcard.png" alt="Credit Card Fraud Detection" class="card-img"/>
+          <div class="card-body">
+            <h3>Credit Card Fraud Detection</h3>
+            <div class="tags"><span>Machine Learning</span><span>Classification</span></div>
+            <p>Implemented a Regression ML algorithm to calculate the price of diamond based on 22 different input features like sex, education, marriage, age, balance due, amount paid, amount to pay, etc</p>
+            <a class="card-link" href="https://github.com/realmitratushar/creditcardfrauddetection">URL</a>
+          </div>
+        </article>
+
+      </div>
+      <div class="projects-grid">
+        <!-- card 1 -->
+        <article class="card">
+          <img src="assets/images/diamond.png" alt="Diamond Price Prediction" class="card-img"/>
+          <div class="card-body">
+            <h3>Diamond Price Prediction</h3>
+            <div class="tags"><span>Machine Learning</span><span>Regression</span></div>
+            <p>Implemented a Regression ML algorithm to calculate the price of diamond based on 9 different input features like carat, cut, clarity, depth, etc.</p>
+            <a class="card-link" href="https://github.com/realmitratushar/diamondpriceprediction">URL</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2 class="section-title">&lt;experience&gt;</h2>
+
+      <div class="timeline">
+
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-date"><b>Aug 2024<br>to<br>Nov 2024</b></div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-logo">
+              <img src="assets/icons/sih.jpeg" alt="SIH Logo">
+              <h4>Smart India Hackathon 2024</h4>
+            </div>
+            <div class="timeline-content">
+              <h3>Internal Hackathon and Screening Round</h3>
+              <ul>
+                <li>Our team "Tech Titans" Qualified for the Screening Round of "Smart India Hackathon". We came in the Top 45 teams out of the 297 registered teams from our University. We submitted our presentation and prototype for the Geolocation-based Attendance System under Problem Statement 1707 for GAIL(Gas Authority of India Limited), under the Ministry of Petroleum and Natural Gas.</li>
+                <li>After the Screening Round, we got selected for the Internal Hackathon Round. In this round, our problem statement, presentation and prototype was given for submission to be graded by the internal team of SIH 2024.</li>
+              </ul>
+              <div class="tags">
+                <span>Kotlin</span><span>Flutter</span><span>React Native</span>
+                <span>PostgreSQL</span><span>REST APIs</span><span>Git</span>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- RESEARCH-->
+    <section id="research" class="section">
+      <h2 class="section-title">&lt;research&gt;</h2>
+
+      <div class="timeline">
+
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-date"><b>Feb 2025<br>to<br>Mar 2025</b></div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-logo">
+              <img src="assets/icons/viksit.jpeg" alt="IIT Patna Logo">
+            </div>
+            <div class="timeline-content">
+              <h3>Food Choices and Sustainable Consumption Pattern</h3>
+              <ul>
+                <li>This study investigates consumer perceptions and behaviours related to food choices and waste in India, integrating individual dietary habits with broader social awareness and potential policy solutions. </li>
+                <li>A Survey of Indian Youth was done with a sample size of 97. </li>
+                <li>Chosen as the best paper in Technical Session 2.4. </li>
+                <li>Presented at 2nd National Conclave on Viksit Bharat @ 2047, Organized by KiiT School of Economics and Commerce. <a href="assets/paper1.pdf" target="_blank" rel="noopener noreferrer">[Paper]</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-date"><b>Nov 2024<br>to<br>April 2025</b></div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-logo">
+              <img src="assets/icons/micropaper.png" alt="Micro Object Detection Logo">
+            </div>
+            <div class="timeline-content">
+              <h3>Micro Object Detection</h3>
+              <ul>
+                <li>Downloaded ’xView satellite imagery dataset’ and split it in 70:15:15 ratio for training, validation and testing images. Performed image annotations on them in V7 Labs Darwin by dividing the objects into 4 classes. </li>
+                <li>Trained the model by taking a small subset of 60 images in the same split ratio using YOLOv12 small as a pre-trained model and fine-tuning its parameters. Achieved good mAP and other metrics for 3 of the 4 classes. </li>
+                <li>To be Presented. </li> <a href="assets/paper2.pdf" target="_blank" rel="noopener noreferrer">[Paper]</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>&lt;contact&gt;</h2>
+      <p>
+        Whether you are interested in collaborating on a project, have a job opportunity 
+        in mind, or just want to connect and chat about tech, feel free to reach out. 
+        I would love to hear from you!
+      </p>
+
+      <div class="contact-card">
+        <p>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:tushar24.mitra@gmail.com">tushar24.mitra@gmail.com</a>
+        </p>
+        <p>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/tushar-mitra-867028261/" target="_blank">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+
+    <footer class="site-footer"><h2><b>&lt;/Tushar Mitra&gt;</b></h2></footer>
+  </main>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
