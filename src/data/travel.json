@@ -1,0 +1,1021 @@
+{
+    "visited": [
+        {
+            "id": 1,
+            "name": "Patna",
+            "lat": 25.5941,
+            "lng": 85.1376,
+            "description": "My Hometown"
+        },
+        {
+            "id": 2,
+            "name": "Bhubaneswar",
+            "lat": 20.2961,
+            "lng": 85.8245,
+            "description": "University City"
+        },
+        {
+            "id": 3,
+            "name": "Kolkata",
+            "lat": 22.5726,
+            "lng": 88.3639,
+            "description": "City of Joy"
+        },
+        {
+            "id": 4,
+            "name": "New Delhi",
+            "lat": 28.6139,
+            "lng": 77.2090,
+            "description": "Capital City"
+        },
+        {
+            "id": 5,
+            "name": "Hajipur",
+            "lat": 25.6833,
+            "lng": 85.2167,
+            "description": "Industrial City"
+        },
+        {
+            "id": 6,
+            "name": "Vaishali",
+            "lat": 25.9922,
+            "lng": 85.1228,
+            "description": "Ancient City"
+        },
+        {
+            "id": 7,
+            "name": "Bhagalpur",
+            "lat": 25.2425,
+            "lng": 87.0145,
+            "description": "Silk City"
+        },
+        {
+            "id": 8,
+            "name": "Purnia",
+            "lat": 25.7771,
+            "lng": 87.4753,
+            "description": "Vibrant City"
+        },
+        {
+            "id": 9,
+            "name": "Rajgir",
+            "lat": 25.0300,
+            "lng": 85.4150,
+            "description": "Historic Capital"
+        },
+        {
+            "id": 10,
+            "name": "Nalanda",
+            "lat": 25.1328,
+            "lng": 85.5438,
+            "description": "Ancient University"
+        },
+        {
+            "id": 11,
+            "name": "Gaya",
+            "lat": 24.7914,
+            "lng": 85.0002,
+            "description": "Spiritual Hub"
+        },
+        {
+            "id": 12,
+            "name": "Sultanganj",
+            "lat": 25.2396,
+            "lng": 86.7380,
+            "description": "Pilgrimage Site"
+        },
+        {
+            "id": 13,
+            "name": "Munger",
+            "lat": 25.3748,
+            "lng": 86.4735,
+            "description": "Yoga City"
+        },
+        {
+            "id": 14,
+            "name": "Deoghar",
+            "lat": 24.4826,
+            "lng": 86.6970,
+            "description": "City of Temples"
+        },
+        {
+            "id": 15,
+            "name": "Dumka",
+            "lat": 24.2694,
+            "lng": 87.2505,
+            "description": "Sub-capital of Jharkhand"
+        },
+        {
+            "id": 16,
+            "name": "Jasidih",
+            "lat": 24.5168,
+            "lng": 86.6496,
+            "description": "Railway Hub"
+        },
+        {
+            "id": 17,
+            "name": "Bardhaman",
+            "lat": 23.2333,
+            "lng": 87.8646,
+            "description": "Historic City"
+        },
+        {
+            "id": 18,
+            "name": "Bolpur",
+            "lat": 23.6687,
+            "lng": 87.6828,
+            "description": "Shantiniketan"
+        },
+        {
+            "id": 19,
+            "name": "Rampurhat",
+            "lat": 24.1745,
+            "lng": 87.7793,
+            "description": "Pilgrimage Hub"
+        },
+        {
+            "id": 20,
+            "name": "Siliguri",
+            "lat": 26.7271,
+            "lng": 88.3953,
+            "description": "Gateway to Northeast"
+        },
+        {
+            "id": 21,
+            "name": "Darjeeling",
+            "lat": 27.0392,
+            "lng": 88.2639,
+            "description": "Queen of Hills"
+        },
+        {
+            "id": 22,
+            "name": "Guwahati",
+            "lat": 26.1158,
+            "lng": 91.7086,
+            "description": "Gateway to Northeast India"
+        },
+        {
+            "id": 23,
+            "name": "Gangtok",
+            "lat": 27.3314,
+            "lng": 88.6138,
+            "description": "Capital of Sikkim"
+        },
+        {
+            "id": 24,
+            "name": "Nathu La Pass",
+            "lat": 27.3916,
+            "lng": 88.8315,
+            "description": "Silk Route Pass"
+        },
+        {
+            "id": 25,
+            "name": "Shillong",
+            "lat": 25.5788,
+            "lng": 91.8933,
+            "description": "Scotland of the East"
+        },
+        {
+            "id": 26,
+            "name": "Umiam Lake",
+            "lat": 25.6543,
+            "lng": 91.8931,
+            "description": "Barapani"
+        },
+        {
+            "id": 27,
+            "name": "Mawlynnong",
+            "lat": 25.2017,
+            "lng": 91.9213,
+            "description": "Cleanest Village in Asia"
+        },
+        {
+            "id": 28,
+            "name": "Puri",
+            "lat": 19.8135,
+            "lng": 85.8252,
+            "description": "Land of Lord Jagannath"
+        },
+        {
+            "id": 29,
+            "name": "Khordha",
+            "lat": 20.1800,
+            "lng": 85.6200,
+            "description": "Historical Fort"
+        },
+        {
+            "id": 30,
+            "name": "Konark",
+            "lat": 19.8876,
+            "lng": 86.0945,
+            "description": "Sun Temple"
+        },
+        {
+            "id": 31,
+            "name": "Chilika Lake",
+            "lat": 19.7042,
+            "lng": 85.3524,
+            "description": "Brackish Water Lagoon"
+        },
+        {
+            "id": 32,
+            "name": "Jabalpur",
+            "lat": 23.1815,
+            "lng": 79.9491,
+            "description": "Marble Rocks City"
+        },
+        {
+            "id": 33,
+            "name": "Varanasi",
+            "lat": 25.3176,
+            "lng": 82.9739,
+            "description": "Spiritual Capital"
+        },
+        {
+            "id": 34,
+            "name": "Agra",
+            "lat": 27.1767,
+            "lng": 78.0081,
+            "description": "City of Taj"
+        },
+        {
+            "id": 35,
+            "name": "Chandigarh",
+            "lat": 30.7333,
+            "lng": 76.7794,
+            "description": "The City Beautiful"
+        },
+        {
+            "id": 36,
+            "name": "Amritsar",
+            "lat": 31.6340,
+            "lng": 74.8723,
+            "description": "Golden Temple"
+        },
+        {
+            "id": 37,
+            "name": "Gurgaon",
+            "lat": 28.4595,
+            "lng": 77.0266,
+            "description": "Cyber City"
+        },
+        {
+            "id": 38,
+            "name": "Jaipur",
+            "lat": 26.9124,
+            "lng": 75.7873,
+            "description": "Pink City"
+        },
+        {
+            "id": 39,
+            "name": "Mount Abu",
+            "lat": 24.5926,
+            "lng": 72.7156,
+            "description": "Hill Station"
+        },
+        {
+            "id": 40,
+            "name": "Mumbai",
+            "lat": 19.0760,
+            "lng": 72.8777,
+            "description": "City of Dreams"
+        },
+        {
+            "id": 41,
+            "name": "Khopoli",
+            "lat": 18.7856,
+            "lng": 73.3459,
+            "description": "Industrial Hub"
+        },
+        {
+            "id": 42,
+            "name": "Nashik",
+            "lat": 19.9973,
+            "lng": 73.7898,
+            "description": "Wine Capital"
+        },
+        {
+            "id": 43,
+            "name": "Panaji",
+            "lat": 15.4909,
+            "lng": 73.8278,
+            "description": "Capital of Goa"
+        },
+        {
+            "id": 44,
+            "name": "Madgaon",
+            "lat": 15.2736,
+            "lng": 73.9581,
+            "description": "Cultural Capital of Goa"
+        },
+        {
+            "id": 45,
+            "name": "Aguada",
+            "lat": 15.4925,
+            "lng": 73.7737,
+            "description": "Aguada Fort"
+        },
+        {
+            "id": 46,
+            "name": "Dehradun",
+            "lat": 30.3165,
+            "lng": 78.0322,
+            "description": "Capital of Uttarakhand"
+        },
+        {
+            "id": 47,
+            "name": "Nainital",
+            "lat": 29.3919,
+            "lng": 79.4542,
+            "description": "Lake District of India"
+        },
+        {
+            "id": 48,
+            "name": "Haridwar",
+            "lat": 29.9457,
+            "lng": 78.1642,
+            "description": "Gateway to Gods"
+        },
+        {
+            "id": 49,
+            "name": "Rishikesh",
+            "lat": 30.0869,
+            "lng": 78.2676,
+            "description": "Yoga Capital of the World"
+        },
+        {
+            "id": 50,
+            "name": "Mussoorie",
+            "lat": 30.4599,
+            "lng": 78.0664,
+            "description": "Queen of the Hills"
+        },
+        {
+            "id": 51,
+            "name": "Shimla",
+            "lat": 31.1044,
+            "lng": 77.1731,
+            "description": "Queen of Hills"
+        },
+        {
+            "id": 52,
+            "name": "Kufri",
+            "lat": 31.0979,
+            "lng": 77.2678,
+            "description": "Snow Resort"
+        },
+        {
+            "id": 53,
+            "name": "Jammu",
+            "lat": 32.7330,
+            "lng": 74.8643,
+            "description": "City of Temples"
+        },
+        {
+            "id": 54,
+            "name": "Katra",
+            "lat": 32.9917,
+            "lng": 74.9320,
+            "description": "Base Camp"
+        },
+        {
+            "id": 55,
+            "name": "Vaishno Devi",
+            "lat": 33.0308,
+            "lng": 74.9490,
+            "description": "Holy Shrine"
+        },
+        {
+            "id": 56,
+            "name": "Kathgodam",
+            "lat": 29.2700,
+            "lng": 79.5400,
+            "description": "Gateway to Kumaon"
+        },
+        {
+            "id": 57,
+            "name": "Bhimtal",
+            "lat": 29.3500,
+            "lng": 79.5500,
+            "description": "Lake City"
+        },
+        {
+            "id": 58,
+            "name": "Kalka",
+            "lat": 30.8350,
+            "lng": 76.9350,
+            "description": "Gateway to Himachal"
+        },
+        {
+            "id": 59,
+            "name": "Trimbakeshwar",
+            "lat": 19.9400,
+            "lng": 73.5300,
+            "description": "Jyotirlinga Temple"
+        }
+    ],
+    "bucketList": [
+        {
+            "id": 1,
+            "name": "Leh",
+            "lat": 34.1526,
+            "lng": 77.5771,
+            "description": "Land of High Passes"
+        },
+        {
+            "id": 2,
+            "name": "Kargil",
+            "lat": 34.5539,
+            "lng": 76.1349,
+            "description": "War Memorial"
+        },
+        {
+            "id": 3,
+            "name": "Drass",
+            "lat": 34.4500,
+            "lng": 75.7600,
+            "description": "Gateway to Ladakh"
+        },
+        {
+            "id": 4,
+            "name": "Manali",
+            "lat": 32.2432,
+            "lng": 77.1892,
+            "description": "Valley of Gods"
+        },
+        {
+            "id": 5,
+            "name": "Udhampur",
+            "lat": 32.9248,
+            "lng": 75.1345,
+            "description": "Northern Command"
+        },
+        {
+            "id": 6,
+            "name": "Anantnag",
+            "lat": 33.7311,
+            "lng": 75.1487,
+            "description": "Land of Springs"
+        },
+        {
+            "id": 7,
+            "name": "Lahaul-Spiti",
+            "lat": 32.5717,
+            "lng": 77.0330,
+            "description": "Cold Desert"
+        },
+        {
+            "id": 8,
+            "name": "Kullu",
+            "lat": 31.9579,
+            "lng": 77.1095,
+            "description": "Valley of Gods"
+        },
+        {
+            "id": 9,
+            "name": "Chitkul",
+            "lat": 31.3500,
+            "lng": 78.4400,
+            "description": "Last Village of India"
+        },
+        {
+            "id": 10,
+            "name": "Kalpa",
+            "lat": 31.5400,
+            "lng": 78.2800,
+            "description": "Kinnaur Kailash View"
+        },
+        {
+            "id": 11,
+            "name": "Jibhi",
+            "lat": 31.5900,
+            "lng": 77.3500,
+            "description": "Hidden Gem"
+        },
+        {
+            "id": 12,
+            "name": "Mandi",
+            "lat": 31.7100,
+            "lng": 76.9300,
+            "description": "Varanasi of Hills"
+        },
+        {
+            "id": 13,
+            "name": "Barot",
+            "lat": 32.0300,
+            "lng": 76.8500,
+            "description": "Trout Fishing Hub"
+        },
+        {
+            "id": 14,
+            "name": "Spiti Valley",
+            "lat": 32.2300,
+            "lng": 78.0700,
+            "description": "Middle Land"
+        },
+        {
+            "id": 15,
+            "name": "Gurez Valley",
+            "lat": 34.6300,
+            "lng": 74.8300,
+            "description": "Offbeat Paradise"
+        },
+        {
+            "id": 16,
+            "name": "Prashar Lake",
+            "lat": 31.7500,
+            "lng": 77.1000,
+            "description": "Mystic Lake"
+        },
+        {
+            "id": 17,
+            "name": "Chandrataal Lake",
+            "lat": 32.4800,
+            "lng": 77.6200,
+            "description": "Moon Lake"
+        },
+        {
+            "id": 18,
+            "name": "Hanle",
+            "lat": 32.7900,
+            "lng": 79.0000,
+            "description": "Dark Sky Reserve"
+        },
+        {
+            "id": 19,
+            "name": "Bangus Valley",
+            "lat": 34.3700,
+            "lng": 74.0600,
+            "description": "Unexplored Beauty"
+        },
+        {
+            "id": 20,
+            "name": "Mana",
+            "lat": 30.7700,
+            "lng": 79.5000,
+            "description": "Last Indian Village"
+        },
+        {
+            "id": 21,
+            "name": "Chopta",
+            "lat": 30.3500,
+            "lng": 79.0500,
+            "description": "Mini Switzerland"
+        },
+        {
+            "id": 22,
+            "name": "Rakshas Tal",
+            "lat": 30.6500,
+            "lng": 81.2500,
+            "description": "Lake of the Demon"
+        },
+        {
+            "id": 23,
+            "name": "Mansarovar Lake",
+            "lat": 30.6615,
+            "lng": 81.4718,
+            "description": "Lake of Consciousness"
+        },
+        {
+            "id": 24,
+            "name": "Gurudongmar Lake",
+            "lat": 28.0258,
+            "lng": 88.7097,
+            "description": "Sacred Lake"
+        },
+        {
+            "id": 25,
+            "name": "Dharamshala",
+            "lat": 32.2190,
+            "lng": 76.3230,
+            "description": "Little Lhasa"
+        },
+        {
+            "id": 26,
+            "name": "McLeod Ganj",
+            "lat": 32.2300,
+            "lng": 76.3200,
+            "description": "Tibetan Hub"
+        },
+        {
+            "id": 27,
+            "name": "Dalhousie",
+            "lat": 32.5300,
+            "lng": 75.9000,
+            "description": "Colonial Charm"
+        },
+        {
+            "id": 28,
+            "name": "Landour",
+            "lat": 30.4600,
+            "lng": 78.1200,
+            "description": "British Heritage"
+        },
+        {
+            "id": 29,
+            "name": "Kangra",
+            "lat": 32.1000,
+            "lng": 76.2600,
+            "description": "Ancient Fort"
+        },
+        {
+            "id": 30,
+            "name": "Uttarkashi",
+            "lat": 30.7300,
+            "lng": 78.5400,
+            "description": "Kashi of North"
+        },
+        {
+            "id": 31,
+            "name": "Kedarnath",
+            "lat": 30.7350,
+            "lng": 79.0670,
+            "description": "Shiva's Temple"
+        },
+        {
+            "id": 32,
+            "name": "Badrinath",
+            "lat": 30.7400,
+            "lng": 79.5200,
+            "description": "Vishnu's Abode"
+        },
+        {
+            "id": 33,
+            "name": "Gangotri",
+            "lat": 30.9800,
+            "lng": 78.9500,
+            "description": "Origin of Ganga"
+        },
+        {
+            "id": 34,
+            "name": "Yamunotri",
+            "lat": 31.0100,
+            "lng": 78.4500,
+            "description": "Origin of Yamuna"
+        },
+        {
+            "id": 35,
+            "name": "Devprayag",
+            "lat": 30.1100,
+            "lng": 78.5800,
+            "description": "Holy Confluence"
+        },
+        {
+            "id": 36,
+            "name": "Roorkee",
+            "lat": 29.8600,
+            "lng": 77.8900,
+            "description": "Educational Hub"
+        },
+        {
+            "id": 37,
+            "name": "Kathmandu",
+            "lat": 27.7000,
+            "lng": 85.3200,
+            "description": "Capital of Nepal"
+        },
+        {
+            "id": 38,
+            "name": "Pokhara",
+            "lat": 28.2000,
+            "lng": 83.9900,
+            "description": "Gateway to Annapurna"
+        },
+        {
+            "id": 39,
+            "name": "Janakpur",
+            "lat": 26.7300,
+            "lng": 86.1300,
+            "description": "Birthplace of Sita"
+        },
+        {
+            "id": 40,
+            "name": "Biratnagar",
+            "lat": 26.4500,
+            "lng": 87.2800,
+            "description": "Industrial City"
+        },
+        {
+            "id": 41,
+            "name": "Birganj",
+            "lat": 27.0400,
+            "lng": 84.8700,
+            "description": "Gateway to Nepal"
+        },
+        {
+            "id": 42,
+            "name": "Jodhpur",
+            "lat": 26.2389,
+            "lng": 73.0243,
+            "description": "Blue City"
+        },
+        {
+            "id": 43,
+            "name": "Bikaner",
+            "lat": 28.0229,
+            "lng": 73.3119,
+            "description": "Camel Country"
+        },
+        {
+            "id": 44,
+            "name": "Thimphu",
+            "lat": 27.4728,
+            "lng": 89.6393,
+            "description": "Gross National Happiness"
+        },
+        {
+            "id": 45,
+            "name": "Paro",
+            "lat": 27.4287,
+            "lng": 89.4164,
+            "description": "Tiger's Nest"
+        },
+        {
+            "id": 46,
+            "name": "Itanagar",
+            "lat": 27.1000,
+            "lng": 93.6200,
+            "description": "Land of Dawn-lit Mountains"
+        },
+        {
+            "id": 47,
+            "name": "Ziro",
+            "lat": 27.5449,
+            "lng": 93.8197,
+            "description": "Apatani Culture"
+        },
+        {
+            "id": 48,
+            "name": "Tawang",
+            "lat": 27.5886,
+            "lng": 91.8623,
+            "description": "Largest Monastery"
+        },
+        {
+            "id": 49,
+            "name": "Dibrugarh",
+            "lat": 27.4705,
+            "lng": 94.9125,
+            "description": "Tea City of India"
+        },
+        {
+            "id": 50,
+            "name": "Majuli",
+            "lat": 26.8942,
+            "lng": 94.0142,
+            "description": "River Island"
+        },
+        {
+            "id": 51,
+            "name": "Kaziranga",
+            "lat": 26.6667,
+            "lng": 93.3500,
+            "description": "One-horned Rhino"
+        },
+        {
+            "id": 52,
+            "name": "Cherrapunji",
+            "lat": 25.2702,
+            "lng": 91.7323,
+            "description": "Wettest Place on Earth"
+        },
+        {
+            "id": 53,
+            "name": "Mawsynram",
+            "lat": 25.2975,
+            "lng": 91.5826,
+            "description": "Rainfall Record"
+        },
+        {
+            "id": 54,
+            "name": "Aizawl",
+            "lat": 23.7271,
+            "lng": 92.7176,
+            "description": "Home of the Highlanders"
+        },
+        {
+            "id": 55,
+            "name": "Kohima",
+            "lat": 25.6747,
+            "lng": 94.1100,
+            "description": "Hornbill Festival"
+        },
+        {
+            "id": 56,
+            "name": "Dimapur",
+            "lat": 25.9090,
+            "lng": 93.7266,
+            "description": "Gateway to Nagaland"
+        },
+        {
+            "id": 57,
+            "name": "Imphal",
+            "lat": 24.8170,
+            "lng": 93.9368,
+            "description": "Jewel of India"
+        },
+        {
+            "id": 58,
+            "name": "Silchar",
+            "lat": 24.8333,
+            "lng": 92.8000,
+            "description": "Island of Peace"
+        },
+        {
+            "id": 59,
+            "name": "Agartala",
+            "lat": 23.8315,
+            "lng": 91.2868,
+            "description": "City of Palaces"
+        },
+        {
+            "id": 60,
+            "name": "Bomdila",
+            "lat": 27.2645,
+            "lng": 92.4159,
+            "description": "Himalayan Panorama"
+        },
+        {
+            "id": 61,
+            "name": "Prayagraj",
+            "lat": 25.4300,
+            "lng": 81.8400,
+            "description": "Sangam City"
+        },
+        {
+            "id": 62,
+            "name": "Lucknow",
+            "lat": 26.8400,
+            "lng": 80.9400,
+            "description": "City of Nawabs"
+        },
+        {
+            "id": 63,
+            "name": "Visakhapatnam",
+            "lat": 17.6800,
+            "lng": 83.2100,
+            "description": "Jewel of the East Coast"
+        },
+        {
+            "id": 64,
+            "name": "Kanyakumari",
+            "lat": 8.0800,
+            "lng": 77.5300,
+            "description": "Southern Tip"
+        },
+        {
+            "id": 65,
+            "name": "Chennai",
+            "lat": 13.0800,
+            "lng": 80.2700,
+            "description": "Gateway to South India"
+        },
+        {
+            "id": 66,
+            "name": "Bengaluru",
+            "lat": 12.9700,
+            "lng": 77.5900,
+            "description": "Silicon Valley of India"
+        },
+        {
+            "id": 67,
+            "name": "Mysore",
+            "lat": 12.2900,
+            "lng": 76.6300,
+            "description": "City of Palaces"
+        },
+        {
+            "id": 68,
+            "name": "Pune",
+            "lat": 18.5200,
+            "lng": 73.8500,
+            "description": "Oxford of the East"
+        },
+        {
+            "id": 69,
+            "name": "Hyderabad",
+            "lat": 17.3800,
+            "lng": 78.4800,
+            "description": "City of Pearls"
+        },
+        {
+            "id": 70,
+            "name": "Thiruvananthapuram",
+            "lat": 8.5200,
+            "lng": 76.9300,
+            "description": "Evergreen City"
+        },
+        {
+            "id": 71,
+            "name": "Mangalore",
+            "lat": 12.9100,
+            "lng": 74.8500,
+            "description": "Coastal Paradise"
+        },
+        {
+            "id": 72,
+            "name": "Pondicherry",
+            "lat": 11.9400,
+            "lng": 79.8000,
+            "description": "French Riviera of the East"
+        },
+        {
+            "id": 73,
+            "name": "Kovalam",
+            "lat": 8.4000,
+            "lng": 76.9700,
+            "description": "Beach Town"
+        },
+        {
+            "id": 74,
+            "name": "Alappuzha",
+            "lat": 9.4900,
+            "lng": 76.3300,
+            "description": "Venice of the East"
+        },
+        {
+            "id": 75,
+            "name": "Ujjain",
+            "lat": 23.1700,
+            "lng": 75.7800,
+            "description": "City of Mahakal"
+        },
+        {
+            "id": 76,
+            "name": "Dwarka",
+            "lat": 22.2394,
+            "lng": 68.9678,
+            "description": "Kingdom of Krishna"
+        },
+        {
+            "id": 77,
+            "name": "Rameshwaram",
+            "lat": 9.2881,
+            "lng": 79.3174,
+            "description": "Island of Faith"
+        },
+        {
+            "id": 78,
+            "name": "Madurai",
+            "lat": 9.9252,
+            "lng": 78.1198,
+            "description": "Athens of the East"
+        },
+        {
+            "id": 79,
+            "name": "Ahmedabad",
+            "lat": 23.0225,
+            "lng": 72.5714,
+            "description": "Heritage City"
+        },
+        {
+            "id": 80,
+            "name": "Rann of Kutch",
+            "lat": 24.0000,
+            "lng": 70.0000,
+            "description": "White Desert"
+        },
+        {
+            "id": 81,
+            "name": "Sundarban Tiger Reserve",
+            "lat": 21.9400,
+            "lng": 88.9000,
+            "description": "Mangrove Forest"
+        },
+        {
+            "id": 82,
+            "name": "Veraval",
+            "lat": 20.9191,
+            "lng": 70.3597,
+            "description": "Fishing Hub"
+        },
+        {
+            "id": 83,
+            "name": "Khandwa",
+            "lat": 21.8257,
+            "lng": 76.3526,
+            "description": "Gateway to Omkareshwar"
+        },
+        {
+            "id": 84,
+            "name": "Srisailam",
+            "lat": 16.0733,
+            "lng": 78.8687,
+            "description": "Mallikarjuna Jyotirlinga"
+        },
+        {
+            "id": 85,
+            "name": "Aurangabad",
+            "lat": 19.9011,
+            "lng": 75.3525,
+            "description": "City of Gates"
+        },
+        {
+            "id": 86,
+            "name": "Berhampur",
+            "lat": 19.3150,
+            "lng": 84.7941,
+            "description": "Silk City"
+        }
+    ]
+}

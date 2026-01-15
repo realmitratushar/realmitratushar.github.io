@@ -2,11 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { useTheme } from '../hooks/useTheme';
 import { FaMoon, FaSun, FaBars, FaTimes } from 'react-icons/fa';
 import { personalInfo } from '../data/content';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Header = () => {
     const { theme, toggleTheme } = useTheme();
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const location = useLocation();
+    const navigate = useNavigate();
 
     // Handle scroll effect
     useEffect(() => {
@@ -24,19 +27,48 @@ const Header = () => {
         { name: 'Projects', href: '#projects' },
         { name: 'Experience', href: '#experience' },
         { name: 'Research', href: '#research' },
-
+        { name: 'Hobbies', href: '#hobbies' },
     ];
 
     const handleNavClick = (e, href) => {
         e.preventDefault();
-        const element = document.querySelector(href);
-        if (element) {
-            const offsetTop = element.offsetTop - 80; // height of header
-            window.scrollTo({
-                top: offsetTop,
-                behavior: 'smooth',
-            });
-            setIsMenuOpen(false); // Close mobile menu
+        setIsMenuOpen(false); // Close mobile menu
+
+        const targetId = href.replace('#', '');
+
+        if (location.pathname === '/') {
+            // If already on home, just scroll
+            const element = document.getElementById(targetId);
+            if (element) {
+                const offsetTop = element.offsetTop - 80;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth',
+                });
+            }
+        } else {
+            // Key change: Navigate to home, then scroll after a delay to ensure render
+            navigate('/');
+            setTimeout(() => {
+                const element = document.getElementById(targetId);
+                if (element) {
+                    const offsetTop = element.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth',
+                    });
+                }
+            }, 100);
+        }
+    };
+
+    const handleLogoClick = (e) => {
+        e.preventDefault();
+        if (location.pathname === '/') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            navigate('/');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     };
 
@@ -52,8 +84,8 @@ const Header = () => {
                     {/* Logo / Name */}
                     <div className="flex-shrink-0">
                         <a
-                            href="#"
-                            onClick={(e) => handleNavClick(e, '#hero')}
+                            href="/"
+                            onClick={handleLogoClick}
                             className="text-2xl font-bold font-sans text-black dark:text-white"
                         >
                             {personalInfo.name.split(" ")[0]}
@@ -114,3 +146,4 @@ const Header = () => {
 };
 
 export default Header;
+

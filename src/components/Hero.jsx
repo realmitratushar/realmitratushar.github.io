@@ -89,16 +89,7 @@ const Hero = () => {
                         >
                             View Resume
                         </a>
-                        <a
-                            href="#contact"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
-                            }}
-                            className="px-8 py-3 rounded-full border-2 border-slate-300 dark:border-slate-700 text-black dark:text-slate-300 font-bold hover:text-primary-600 transition-all duration-300 bg-white dark:bg-transparent hover-glow hover:border-primary-500 dark:hover:border-primary-400"
-                        >
-                            Contact Me
-                        </a>
+
                     </div>
 
                     {/* Social Icons */}
