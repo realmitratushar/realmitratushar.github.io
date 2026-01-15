@@ -24,7 +24,7 @@ const Header = () => {
         { name: 'Projects', href: '#projects' },
         { name: 'Experience', href: '#experience' },
         { name: 'Research', href: '#research' },
-        { name: 'Contact', href: '#contact' },
+
     ];
 
     const handleNavClick = (e, href) => {

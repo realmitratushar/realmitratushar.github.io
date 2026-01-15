@@ -8,10 +8,7 @@ const Footer = () => {
                 <p className="text-black dark:text-slate-400 text-sm mb-4 font-medium">
                     &copy; {new Date().getFullYear()} {personalInfo.name}. All rights reserved.
                 </p>
-                <div className="flex space-x-6">
-                    <a href="#" className="text-black hover:text-primary-600 text-sm font-bold">Privacy Policy</a>
-                    <a href="#" className="text-black hover:text-primary-600 text-sm font-bold">Terms of Service</a>
-                </div>
+
                 <p className="text-xs text-black mt-4 font-semibold">
                     Built with React, Vite & Tailwind CSS
                 </p>
