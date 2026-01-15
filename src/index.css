@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .hover-glow {
+    transition: all 0.3s ease;
+  }
+
+  .hover-glow:hover {
+    box-shadow: 0 0 15px theme('colors.primary.500');
+    border-color: theme('colors.primary.400');
+  }
+
+  .hover-glow:active {
+    box-shadow: 0 0 5px theme('colors.primary.600');
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-dark-bg dark:text-dark-text transition-colors duration-300 relative min-h-screen font-sans;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+
+  /* Fixed Background Element for smooth mobile scroll */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -50;
+    background-size: 200% 200%;
+    animation: gradient-move 10s ease infinite;
+
+    /* Light Mode Background */
+    background-color: #f0f9ff;
+    background-image:
+      radial-gradient(at 0% 0%, rgba(14, 165, 233, 0.45) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.45) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(14, 165, 233, 0.45) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(139, 92, 246, 0.45) 0px, transparent 50%);
+  }
+
+  /* Dark Mode Background Override */
+  .dark body::before {
+    background-color: #0f172a;
+    background-image:
+      radial-gradient(at 0% 0%, rgba(2, 132, 199, 0.5) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(124, 58, 237, 0.5) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(2, 132, 199, 0.5) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(124, 58, 237, 0.5) 0px, transparent 50%);
+  }
+}
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 dark:bg-slate-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400 dark:bg-slate-600;
+}
