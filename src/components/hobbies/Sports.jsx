@@ -15,16 +15,16 @@ const BACKUP_DATA = {
             team: "India",
             logo: "🇮🇳",
             color: "from-blue-600 to-blue-800",
-            upcoming: { opponent: "Australia", date: "Today", venue: "Perth Stadium", type: "Border-Gavaskar Trophy" },
-            lastResult: { opponent: "England", score: "India won by 4 wickets", date: "25 Jan 2026" },
+            upcoming: { opponent: "New Zealand", date: "18 Jan 2026", venue: "Eden Gardens", type: "ODI Series" },
+            lastResult: { opponent: "Australia", score: "India won by 8 wickets", date: "Past Match" },
             squad: ["Rohit Sharma (c)", "Yashasvi Jaiswal", "Shubman Gill", "Virat Kohli", "Rishabh Pant (wk)", "KL Rahul", "Ravindra Jadeja", "Jasprit Bumrah"],
-            // Simulation Fallback for India
-            isLive: true,
-            opponent: "Australia (Simulated)",
-            date: "Live Demo",
-            venue: "Perth Stadium",
-            type: "Border-Gavaskar Trophy",
-            score: "Matches Loading..."
+            // Static Fallback for India 
+            isLive: false,
+            opponent: "New Zealand",
+            date: "18 Jan 2026",
+            venue: "Eden Gardens",
+            type: "ODI Series",
+            score: "Upcoming Series"
         },
         {
             id: '135800',
@@ -63,7 +63,7 @@ const BACKUP_DATA = {
             team: "Inter Miami CF",
             logo: "🦩",
             color: "from-pink-500 to-black",
-            upcoming: { opponent: "Orlando City", date: "25 Feb 2026", venue: "Chase Stadium", type: "MLS" },
+            upcoming: { opponent: "Pre-season Tour", date: "25 Jan 2026", venue: "Chase Stadium", type: "Friendly" },
             lastResult: { opponent: "LA Galaxy", score: "2 - 1 (Win)", date: "19 Oct 2025" },
             squad: ["Lionel Messi (c)", "Luis Suárez", "Sergio Busquets", "Jordi Alba", "Drake Callender"]
         },
@@ -72,8 +72,8 @@ const BACKUP_DATA = {
             team: "FC Barcelona",
             logo: "🔵🔴",
             color: "from-blue-700 to-red-700",
-            upcoming: { opponent: "Real Madrid", date: "21 Apr 2026", venue: "Spotify Camp Nou", type: "La Liga" },
-            lastResult: { opponent: "Atletico Madrid", score: "3 - 0 (Win)", date: "17 Mar 2026" },
+            upcoming: { opponent: "Real Sociedad", date: "19 Jan 2026", venue: "Anoeta", type: "La Liga", time: "1:30 AM IST" },
+            lastResult: { opponent: "Real Racing Club", score: "2 - 0 (Win)", date: "Yesterday" },
             squad: ["Ter Stegen (c)", "Ronald Araujo", "Pedri", "Gavi", "Lamine Yamal", "Robert Lewandowski"]
         },
         {
@@ -82,7 +82,7 @@ const BACKUP_DATA = {
             logo: "🇦🇷",
             color: "from-sky-400 to-white",
             textColor: "text-slate-800",
-            upcoming: { opponent: "Brazil", date: "05 Sep 2026", venue: "Maracanã", type: "World Cup Qual" },
+            upcoming: { opponent: "Spain", date: "27 Mar 2026", venue: "Wembley", type: "Finalissima" },
             lastResult: { opponent: "Uruguay", score: "2 - 0 (Win)", date: "17 Nov 2025" },
             squad: ["Lionel Messi (c)", "Emi Martínez", "Julian Alvarez", "Enzo Fernandez", "Alexis Mac Allister"]
         },
@@ -91,10 +91,22 @@ const BACKUP_DATA = {
             team: "Spain",
             logo: "🇪🇸",
             color: "from-red-600 to-yellow-400",
-            upcoming: { opponent: "Portugal", date: "15 Jun 2026", venue: "Santiago Bernabéu", type: "Nations League" },
+            upcoming: { opponent: "Argentina", date: "27 Mar 2026", venue: "Wembley", type: "Finalissima" },
             lastResult: { opponent: "Croatia", score: "1 - 0 (Win)", date: "25 Mar 2026" },
             squad: ["Rodri (c)", "Pedri", "Lamine Yamal", "Nico Williams", "Dani Carvajal", "Unai Simón"]
         }
+    ],
+    F1: [
+        { round: "1", raceName: "Bahrain Grand Prix", date: "2026-03-05", time: "15:00:00Z", Circuit: { circuitName: "Bahrain International Circuit", Location: { country: "Bahrain" } } },
+        { round: "2", raceName: "Saudi Arabian Grand Prix", date: "2026-03-12", time: "17:00:00Z", Circuit: { circuitName: "Jeddah Corniche Circuit", Location: { country: "Saudi Arabia" } } },
+        { round: "3", raceName: "Australian Grand Prix", date: "2026-03-26", time: "05:00:00Z", Circuit: { circuitName: "Albert Park", Location: { country: "Australia" } } },
+        { round: "4", raceName: "Japanese Grand Prix", date: "2026-04-09", time: "05:00:00Z", Circuit: { circuitName: "Suzuka Circuit", Location: { country: "Japan" } } },
+        { round: "5", raceName: "Chinese Grand Prix", date: "2026-04-23", time: "07:00:00Z", Circuit: { circuitName: "Shanghai International Circuit", Location: { country: "China" } } },
+        { round: "6", raceName: "Miami Grand Prix", date: "2026-05-07", time: "19:30:00Z", Circuit: { circuitName: "Miami International Autodrome", Location: { country: "USA" } } },
+        { round: "7", raceName: "Emilia Romagna GP", date: "2026-05-21", time: "13:00:00Z", Circuit: { circuitName: "Imola", Location: { country: "Italy" } } },
+        { round: "8", raceName: "Monaco Grand Prix", date: "2026-05-28", time: "13:00:00Z", Circuit: { circuitName: "Circuit de Monaco", Location: { country: "Monaco" } } },
+        { round: "9", raceName: "Spanish Grand Prix", date: "2026-06-04", time: "13:00:00Z", Circuit: { circuitName: "Circuit de Barcelona-Catalunya", Location: { country: "Spain" } } },
+        { round: "10", raceName: "Canadian Grand Prix", date: "2026-06-18", time: "18:00:00Z", Circuit: { circuitName: "Circuit Gilles Villeneuve", Location: { country: "Canada" } } }
     ]
 };
 
@@ -196,46 +208,87 @@ const MatchCard = ({ data, onClick }) => (
 );
 
 const F1Section = () => {
-    const fallbackRace = { round: "1", raceName: "Bahrain Grand Prix", date: "2026-03-05", time: "15:00:00Z", Circuit: { circuitName: "Bahrain International Circuit", Location: { country: "Bahrain" } } };
-    const [nextRace, setNextRace] = useState(fallbackRace);
+    const [races, setRaces] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchF1 = async () => {
             try {
+                // Fetch full season schedule (Using Jolpi mirror which supports CORS better)
                 const year = new Date().getFullYear();
-                const res = await fetch(`https://ergast.com/api/f1/${year}/next.json`);
+                const res = await fetch(`https://api.jolpi.ca/ergast/f1/${year}.json`); // Better CORS mirror
                 if (!res.ok) throw new Error('Err');
                 const d = await res.json();
-                if (d.MRData?.RaceTable?.Races?.length) setNextRace(d.MRData.RaceTable.Races[0]);
+
+                const allRaces = d.MRData?.RaceTable?.Races || [];
+                const today = new Date();
+
+                // Filter for upcoming races
+                const upcoming = allRaces.filter(r => new Date(r.date) >= today);
+                setRaces(upcoming.length ? upcoming : allRaces.slice(-3));
+                setLoading(false);
             } catch (e) {
-                console.warn("F1 Fetch failed", e);
+                console.warn("F1 Fetch failed, using backup", e);
+                // Filtering backup data for upcoming
+                const today = new Date();
+                const upcomingBackup = (BACKUP_DATA.F1 || []).filter(r => new Date(r.date) >= today);
+                setRaces(upcomingBackup);
+                setLoading(false);
             }
         };
         fetchF1();
     }, []);
 
-    const r = nextRace || fallbackRace;
+    if (loading) return <div className="text-center p-8 text-slate-500">Loading F1 Schedule...</div>;
+
+    // Show next race as Main Card, subsequent as list
+    const mainRace = races[0] || {};
+    const otherRaces = races.slice(1, 5);
 
     return (
         <div className="space-y-8">
-            <div className="bg-gradient-to-r from-blue-900 to-purple-900 rounded-3xl p-8 text-white shadow-2xl overflow-hidden relative group">
-                <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-red-600 rounded-full opacity-20 blur-3xl group-hover:opacity-30 transition-opacity duration-700"></div>
-                <div className="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8">
-                    <div className="text-center md:text-left">
-                        <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
-                            <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse">NEXT GRAND PRIX</span>
-                            <span className="opacity-70 text-sm font-medium">Round {r.round}</span>
+            {races.length > 0 && (
+                <div className="bg-gradient-to-r from-blue-900 to-purple-900 rounded-3xl p-8 text-white shadow-2xl overflow-hidden relative group">
+                    <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-red-600 rounded-full opacity-20 blur-3xl group-hover:opacity-30 transition-opacity duration-700"></div>
+                    <div className="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8">
+                        <div className="text-center md:text-left">
+                            <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
+                                <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse">NEXT GRAND PRIX</span>
+                                <span className="opacity-70 text-sm font-medium">Round {mainRace.round}</span>
+                            </div>
+                            <h2 className="text-4xl md:text-5xl font-black italic mb-2 tracking-tight">{mainRace.raceName}</h2>
+                            <div className="flex items-center justify-center md:justify-start gap-2 text-xl opacity-90"><MdLocationOn /><span>{mainRace.Circuit?.circuitName}, {mainRace.Circuit?.Location?.country}</span></div>
                         </div>
-                        <h2 className="text-4xl md:text-5xl font-black italic mb-2 tracking-tight">{r.raceName}</h2>
-                        <div className="flex items-center justify-center md:justify-start gap-2 text-xl opacity-90"><MdLocationOn /><span>{r.Circuit?.circuitName}, {r.Circuit?.Location?.country}</span></div>
-                    </div>
-                    <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl text-center min-w-[200px] border border-white/10 shadow-lg transform hover:scale-105 transition-transform duration-300">
-                        <p className="text-sm opacity-70 uppercase tracking-widest mb-1 font-bold">RACE DAY</p>
-                        <div className="text-3xl font-bold">{new Date(r.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}</div>
-                        <div className="text-xl opacity-80 font-mono">{r.time?.slice(0, 5)} UTC</div>
+                        <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl text-center min-w-[200px] border border-white/10 shadow-lg transform hover:scale-105 transition-transform duration-300">
+                            <p className="text-sm opacity-70 uppercase tracking-widest mb-1 font-bold">RACE DAY</p>
+                            <div className="text-3xl font-bold">{new Date(mainRace.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}</div>
+                            <div className="text-xl opacity-80 font-mono">{mainRace.time ? mainRace.time.slice(0, 5) + ' UTC' : 'TBA'}</div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
+
+            {/* Upcoming Schedule List */}
+            {otherRaces.length > 0 && (
+                <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-lg border border-slate-200 dark:border-slate-700">
+                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2"><MdCalendarToday className="text-primary-600" /> Upcoming Races</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {otherRaces.map(r => (
+                            <div key={r.round} className="flex items-center justify-between p-4 bg-slate-50 dark:bg-slate-900 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+                                <div>
+                                    <div className="font-bold text-slate-800 dark:text-slate-200">{r.raceName}</div>
+                                    <div className="text-xs text-slate-500">{r.Circuit?.Location?.country}</div>
+                                </div>
+                                <div className="text-right">
+                                    <div className="font-mono text-sm font-bold text-primary-600">{new Date(r.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}</div>
+                                    <div className="text-xs text-slate-400">Round {r.round}</div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
+
             {/* Simple Red Bull Card */}
             <div className="bg-slate-900 text-white rounded-2xl p-6 border-l-4 border-yellow-400 shadow-xl">
                 <div className="flex justify-between items-start mb-4">
@@ -258,74 +311,66 @@ const Sports = () => {
     const [footballData, setFootballData] = useState([]);
     const [loading, setLoading] = useState(false);
 
-    // Live Score Simulation State
-    const [liveMatch, setLiveMatch] = useState({
-        runs: 312,
-        wickets: 5,
-        overs: 78.4,
-        batting: "India",
-        target: "Lead by 145"
-    });
-
-    // Simulate Live Match Dynamic Updates
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setLiveMatch(prev => {
-                const addRuns = Math.random() > 0.6 ? Math.floor(Math.random() * 4) : 0; // Random run accumulation
-                const wktEvent = Math.random() > 0.98; // Rare wicket event
-
-                const newRuns = prev.runs + addRuns;
-                const newWickets = wktEvent && prev.wickets < 10 ? prev.wickets + 1 : prev.wickets;
-
-                let newOvers = prev.overs + 0.1;
-                // Simple over correction 
-                let formattedOvers = parseFloat(newOvers.toFixed(1));
-                if ((formattedOvers * 10) % 10 >= 6) {
-                    formattedOvers = Math.floor(formattedOvers) + 1.0;
-                }
-
-                return {
-                    ...prev,
-                    runs: newRuns,
-                    wickets: newWickets,
-                    overs: formattedOvers
-                };
-            });
-        }, 5000); // Update every 5 seconds
-
-        return () => clearInterval(interval);
-    }, []);
-
-
     // Fetch Cricket Data from Real API
     const fetchCricket = async () => {
         try {
-            const res = await fetch(`https://api.cricapi.com/v1/currentMatches?apikey=${CRICKET_KEY}&offset=0`);
-            const json = await res.json();
+            // 1. Try to fetch Upcoming Matches (Schedule)
+            const scheduleRes = await fetch(`https://api.cricapi.com/v1/matches?apikey=${CRICKET_KEY}&offset=0`);
+            const scheduleJson = await scheduleRes.json();
+
+            // 2. Try to fetch Current/Live Matches
+            const currentRes = await fetch(`https://api.cricapi.com/v1/currentMatches?apikey=${CRICKET_KEY}&offset=0`);
+            const currentJson = await currentRes.json();
+
+            // Merge valid data from both endpoints
+            const allMatches = [
+                ...(scheduleJson.data || []),
+                ...(currentJson.data || [])
+            ];
 
             // Map our favorite teams to the API data
             const teams = BACKUP_DATA.CRICKET.map(backup => {
-                if (json.status !== "success" || !json.data) return backup;
-
-                // Find a match involving this team
-                const match = json.data.find(m => m.name && (m.name.toLowerCase().includes(backup.team.toLowerCase()) || m.name.toLowerCase().includes(backup.team.split(' ')[0].toLowerCase())));
-
-                if (match && match.matchStarted) { // prioritize live matches
+                if (!allMatches.length) {
+                    // Fallback to purely static data if API returns empty
                     return {
                         ...backup,
-                        isLive: !match.matchEnded,
-                        score: match.score && match.score.length > 0 ? `${match.score[0].r}/${match.score[0].w} (${match.score[0].o || '0.0'})` : (match.status || "Match Started"),
-                        opponent: match.name.toLowerCase().replace(backup.team.toLowerCase(), '').replace('vs', '').replace('-', '').trim(),
-                        date: match.date,
-                        venue: match.venue,
-                        status: match.status,
-                        type: match.matchType
+                        status: backup.upcoming ? "Scheduled" : "Off Season",
+                        date: backup.upcoming?.date || "TBA",
+                        opponent: backup.upcoming?.opponent || "TBA",
+                        type: backup.upcoming?.type || "Match"
                     };
                 }
-                // Fallback: Return backup (with rich scheduled data)
+
+                // Find a match involving this team
+                // Priority: Live > Scheduled > Recently Ended
+                const teamMatches = allMatches.filter(m =>
+                    m.name && (m.name.toLowerCase().includes(backup.team.toLowerCase()) ||
+                        (m.teamInfo && m.teamInfo.some(t => t.name.includes(backup.team))))
+                );
+
+                const liveMatch = teamMatches.find(m => m.matchStarted && !m.matchEnded);
+                const futureMatch = teamMatches.find(m => !m.matchStarted && m.status !== "Match ended");
+                const pastMatch = teamMatches.find(m => m.matchEnded);
+
+                const match = liveMatch || futureMatch || pastMatch;
+
+                if (match) {
+                    return {
+                        ...backup,
+                        isLive: match.matchStarted && !match.matchEnded,
+                        score: match.score ? `${match.score[0]?.r}/${match.score[0]?.w} (${match.score[0]?.o} ov)` : (match.status || "Scheduled"),
+                        opponent: match.name.replace(backup.team, '').replace('vs', '').replace('-', '').trim() || "TBA",
+                        date: match.date || "TBA",
+                        venue: match.venue || "TBA",
+                        status: match.status || "Scheduled",
+                        type: match.matchType || "Match"
+                    };
+                }
+
+                // If no dynamic match found, use Backup with explicitly "Scheduled" status from static data
                 return {
                     ...backup,
-                    status: backup.isLive ? "Live Simulation" : (backup.upcoming ? "Scheduled" : "Off Season"),
+                    status: backup.upcoming ? "Scheduled" : "Off Season",
                     date: backup.upcoming ? backup.upcoming.date : "TBA",
                     opponent: backup.upcoming ? backup.upcoming.opponent : "TBA",
                     type: backup.upcoming ? backup.upcoming.type : "Upcoming"
@@ -333,8 +378,14 @@ const Sports = () => {
             });
             setCricketData(teams);
         } catch (e) {
-            console.error(e);
-            setCricketData(BACKUP_DATA.CRICKET);
+            console.error("Cricket API Error", e);
+            // Fallback to purely static data if fetch fails
+            setCricketData(BACKUP_DATA.CRICKET.map(backup => ({
+                ...backup,
+                status: backup.upcoming ? "Scheduled" : "Off Season",
+                date: backup.upcoming.date,
+                opponent: backup.upcoming.opponent
+            })));
         }
     };
 
@@ -343,14 +394,37 @@ const Sports = () => {
         try {
             // Note: Free tier Football API has strict CORS. We might need a proxy or backend.
             // For client-side, we try directly. safely handle CORS errors.
-            const res = await fetch(`https://api.football-data.org/v4/matches`, {
+
+            // Get date range: Today - 3 days to Today + 7 days
+            const today = new Date();
+            const fromDate = new Date(today);
+            fromDate.setDate(today.getDate() - 3);
+            const toDate = new Date(today);
+            toDate.setDate(today.getDate() + 7);
+
+            const dateFromStr = fromDate.toISOString().split('T')[0];
+            const dateToStr = toDate.toISOString().split('T')[0];
+
+            const res = await fetch(`https://api.football-data.org/v4/matches?dateFrom=${dateFromStr}&dateTo=${dateToStr}`, {
                 headers: { 'X-Auth-Token': FOOTBALL_KEY }
             });
             if (!res.ok) throw new Error('CORS or API Error');
             const json = await res.json();
 
             const teams = BACKUP_DATA.FOOTBALL.map(backup => {
-                if (!json.matches) return backup;
+                if (!json.matches) {
+                    // Fallback Logic:
+                    // For Barcelona, user specifically wants the Upcoming match (Real Sociedad) to be visible.
+                    // For others like Miami, Upcoming is also good.
+                    // We prioritize 'Upcoming' over 'Last Result' for the main card display unless it's live.
+                    return {
+                        ...backup,
+                        status: "Scheduled",
+                        date: backup.upcoming ? backup.upcoming.date : (backup.lastResult ? backup.lastResult.date : "TBA"),
+                        opponent: backup.upcoming ? backup.upcoming.opponent : (backup.lastResult ? backup.lastResult.opponent : "TBA"),
+                        type: backup.upcoming ? backup.upcoming.type : "Match"
+                    };
+                }
 
                 // Smart Search (e.g., search for 'Barcelona' in homeTeam or awayTeam names)
                 const match = json.matches.find(m =>
@@ -372,25 +446,38 @@ const Sports = () => {
                         type: match.competition.name
                     };
                 }
-                // Return detailed backup schedule instead of "TBA"
+                // No live/recent match found in API for this team.
+                // Fallback: Prioritize Upcoming for everyone (especially Barcelona).
+                // Ensure we use the flattened properties expected by MatchCard.
+                const useLocalData = backup.upcoming || backup.lastResult;
+
                 return {
                     ...backup,
-                    status: "Scheduled",
-                    date: backup.upcoming ? backup.upcoming.date : "TBA",
-                    opponent: backup.upcoming ? backup.upcoming.opponent : "TBA",
-                    type: backup.upcoming ? backup.upcoming.type : "Upcoming"
+                    status: backup.upcoming ? "Scheduled (Backup)" : "Recent Result",
+                    date: useLocalData?.date || "TBA",
+                    opponent: useLocalData?.opponent || "TBA",
+                    type: useLocalData?.type || "Match",
+                    score: backup.upcoming ? "vs" : (backup.lastResult?.score || "vs")
                 };
             });
             setFootballData(teams);
         } catch (e) {
             console.error("Football Fetch Error", e);
             // On Error (CORS), clean fallback to rich backup data. Use map to ensure new array ref.
-            setFootballData(BACKUP_DATA.FOOTBALL.map(t => ({
-                ...t,
-                status: "Scheduled (Offline)", // Show useful status
-                date: t.upcoming?.date || "TBA",
-                opponent: t.upcoming?.opponent || "TBA"
-            })));
+            setFootballData(BACKUP_DATA.FOOTBALL.map(t => {
+                // Priority: Upcoming > Last Result
+                // User wants to see the Real Sociedad match for Barcelona
+                const useLocalData = t.upcoming || t.lastResult;
+
+                return {
+                    ...t,
+                    status: t.upcoming ? "Scheduled (Offline)" : "Recent Result",
+                    date: useLocalData?.date || "TBA",
+                    opponent: useLocalData?.opponent || "TBA",
+                    type: useLocalData?.type || "Match",
+                    score: t.upcoming ? "vs" : (t.lastResult?.score || "vs")
+                };
+            }));
         }
     };
 
@@ -415,25 +502,6 @@ const Sports = () => {
         return () => clearInterval(refreshInterval);
     }, [activeTab]);
 
-    // Update live score in the data array seamlessly when liveMatch updates
-    useEffect(() => {
-        setCricketData(prev => prev.map(team => {
-            if (team.isLive && team.team === "India") {
-                return {
-                    ...team,
-                    score: `${liveMatch.batting} ${liveMatch.runs}/${liveMatch.wickets} (${liveMatch.overs.toFixed(1)} ov)`,
-                };
-            }
-            return team;
-        }));
-
-        if (selectedMatch && selectedMatch.isLive && selectedMatch.team === "India") {
-            setSelectedMatch(prev => ({
-                ...prev,
-                score: `${liveMatch.batting} ${liveMatch.runs}/${liveMatch.wickets} (${liveMatch.overs.toFixed(1)} ov)`,
-            }));
-        }
-    }, [liveMatch]);
 
     const tabs = [
         { id: 'cricket', label: 'Cricket', icon: <MdSportsCricket /> },
