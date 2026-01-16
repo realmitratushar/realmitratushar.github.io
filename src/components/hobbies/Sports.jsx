@@ -42,8 +42,8 @@ const BACKUP_DATA = {
             logo: "🇿🇦",
             color: "from-yellow-400 to-green-600",
             textColor: "text-slate-900",
-            upcoming: { opponent: "Sunrisers Eastern Cape", date: "10 Jan 2027", venue: "Wanderers", type: "SA20 Season 3" },
-            lastResult: { opponent: "Durban's Super Giants", score: "JSK won by 15 runs", date: "04 Feb 2026" },
+            upcoming: { opponent: "Pretoria Capitals", date: "17 Jan 2026", venue: "Wanderers", type: "SA20" },
+            lastResult: { opponent: "Durban's Super Giants", score: "JSK won by 15 runs", date: "14 Jan 2026" },
             squad: ["Faf du Plessis (c)", "Moeen Ali", "David Wiese", "Gerald Coetzee", "Nandre Burger", "Reza Hendricks"]
         },
         {
