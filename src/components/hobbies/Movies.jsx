@@ -87,7 +87,7 @@ const Movies = () => {
             )}
 
             {moviesData.watchlist && moviesData.watchlist.length > 0 && (
-                <MovieGrid movies={moviesData.watchlist.slice(0, 10)} title="Watchlist" />
+                <MovieGrid movies={moviesData.watchlist.slice(0, 30)} title="Watchlist" />
             )}
 
             <div className="mt-8 text-center">

@@ -147,6 +147,13 @@ const LIBRARY = {
             author: "Charles Dickens",
             cover: "https://covers.openlibrary.org/b/isbn/9780141439747-L.jpg",
             rating: 5
+        },
+        {
+            id: 'c19',
+            title: "How I Taught My Grandmother to Read",
+            author: "Sudha Murty",
+            cover: "https://covers.openlibrary.org/b/isbn/9780143333647-L.jpg",
+            rating: 5
         }
     ],
     wishlist: [
@@ -188,9 +195,9 @@ const LIBRARY = {
         },
         {
             id: 'w7',
-            title: "More Days at the Morisaki Bookshop",
+            title: "Days at the Morisaki Bookshop",
             author: "Satoshi Yagisawa",
-            cover: "https://covers.openlibrary.org/b/isbn/9780063278714-L.jpg"
+            cover: "https://covers.openlibrary.org/b/isbn/9780063278677-L.jpg"
         },
         {
             id: 'w8',
@@ -613,6 +620,170 @@ const LIBRARY = {
             title: "The Boy in the Striped Pajamas",
             author: "John Boyne",
             cover: "https://covers.openlibrary.org/b/isbn/9780385751537-L.jpg"
+        },
+        {
+            id: 'w80',
+            title: "2 States",
+            author: "Chetan Bhagat",
+            cover: "https://covers.openlibrary.org/b/isbn/9788129115300-L.jpg"
+        },
+        {
+            id: 'w81',
+            title: "The 3 Mistakes of My Life",
+            author: "Chetan Bhagat",
+            cover: "https://covers.openlibrary.org/b/isbn/9788129135513-L.jpg"
+        },
+        {
+            id: 'w82',
+            title: "Half Girlfriend",
+            author: "Chetan Bhagat",
+            cover: "https://covers.openlibrary.org/b/isbn/9788129135728-L.jpg"
+        },
+        {
+            id: 'w83',
+            title: "Wise and Otherwise",
+            author: "Sudha Murty",
+            cover: "https://covers.openlibrary.org/b/isbn/9780143062226-L.jpg"
+        },
+        {
+            id: 'w84',
+            title: "Three Thousand Stitches",
+            author: "Sudha Murty",
+            cover: "https://covers.openlibrary.org/b/isbn/9780143440055-L.jpg"
+        },
+        {
+            id: 'w85',
+            title: "The Subtle Art of Not Giving a F*ck",
+            author: "Mark Manson",
+            cover: "https://covers.openlibrary.org/b/isbn/9780062457714-L.jpg"
+        },
+        {
+            id: 'w86',
+            title: "Everything Is F*cked",
+            author: "Mark Manson",
+            cover: "https://covers.openlibrary.org/b/isbn/9780062888433-L.jpg"
+        },
+        {
+            id: 'w87',
+            title: "More Days at the Morisaki Bookshop",
+            author: "Satoshi Yagisawa",
+            cover: "https://covers.openlibrary.org/b/isbn/9780063278714-L.jpg"
+        },
+        {
+            id: 'w88',
+            title: "In Search Of Schrodinger's Cat",
+            author: "John Gribbin",
+            cover: "https://images-na.ssl-images-amazon.com/images/P/0553342533.01.LZZZZZZZ.jpg"
+        },
+        {
+            id: 'w89',
+            title: "India Since Independence",
+            author: "Bipan Chandra",
+            cover: "https://images-na.ssl-images-amazon.com/images/P/0143104098.01.LZZZZZZZ.jpg"
+        },
+        {
+            id: 'w90',
+            title: "The Innovator's Dilemma",
+            author: "Clayton Christensen",
+            cover: "https://covers.openlibrary.org/b/isbn/9780066620695-L.jpg"
+        },
+        {
+            id: 'w91',
+            title: "The Tyranny of Merit",
+            author: "Michael Sandel",
+            cover: "https://covers.openlibrary.org/b/isbn/9780374289980-L.jpg"
+        },
+        {
+            id: 'w92',
+            title: "I Came Upon a Lighthouse",
+            author: "Shantanu Naidu",
+            cover: "https://covers.openlibrary.org/b/isbn/9789390327522-L.jpg"
+        },
+
+        {
+            id: 'w94',
+            title: "The Interpretation of Dreams",
+            author: "Sigmund Freud",
+            cover: "https://images-na.ssl-images-amazon.com/images/P/1609422406.01.LZZZZZZZ.jpg"
+        },
+        {
+            id: 'w95',
+            title: "Kuchh Ishq Kiya Kuchh Kaam Kiya",
+            author: "Piyush Mishra",
+            cover: "https://covers.openlibrary.org/b/isbn/9788126728435-L.jpg"
+        },
+
+        {
+            id: 'w97',
+            title: "Saaye Mein Dhoop",
+            author: "Dushyant Kumar",
+            cover: "https://covers.openlibrary.org/b/isbn/9788171197941-L.jpg"
+        },
+        {
+            id: 'w98',
+            title: "Raat Pashmine Ki",
+            author: "Gulzar",
+            cover: "https://covers.openlibrary.org/b/isbn/9788129102249-L.jpg"
+        },
+        {
+            id: 'w99',
+            title: "Bahurani",
+            author: "Rabindranath Tagore",
+            cover: "https://images-na.ssl-images-amazon.com/images/P/9390183839.01.LZZZZZZZ.jpg"
+        },
+        {
+            id: 'w100',
+            title: "A Brief Tour Of Higher Consciousness",
+            author: "Itzhak Bentov",
+            cover: "https://covers.openlibrary.org/b/isbn/9780892818143-L.jpg"
+        },
+        {
+            id: 'w101',
+            title: "Freakonomics",
+            author: "Steven Levitt & Stephen Dubner",
+            cover: "https://covers.openlibrary.org/b/isbn/9780060731328-L.jpg"
+        },
+        {
+            id: 'w102',
+            title: "Misbehaving",
+            author: "Richard Thaler",
+            cover: "https://covers.openlibrary.org/b/isbn/9780393352795-L.jpg"
+        },
+        {
+            id: 'w103',
+            title: "The Undercover Economist",
+            author: "Tim Harford",
+            cover: "https://covers.openlibrary.org/b/isbn/9780345494016-L.jpg"
+        },
+        {
+            id: 'w104',
+            title: "Greenlights",
+            author: "Matthew McConaughey",
+            cover: "https://covers.openlibrary.org/b/isbn/9780593139134-L.jpg"
+        },
+        {
+            id: 'w105',
+            title: "Cinema Speculation",
+            author: "Quentin Tarantino",
+            cover: "https://covers.openlibrary.org/b/isbn/9780063112582-L.jpg"
+        },
+        {
+            id: 'w106',
+            title: "Tumhari Auqaat Kya Hai",
+            author: "Piyush Mishra",
+            cover: "https://images-na.ssl-images-amazon.com/images/P/9395737824.01.LZZZZZZZ.jpg"
+        },
+        {
+            id: 'w107',
+            title: "Source Code",
+            author: "Bill Gates",
+            cover: "https://covers.openlibrary.org/b/isbn/9780593801581-L.jpg"
+        },
+        {
+            id: 'w108',
+            title: "Physics of the Future",
+            author: "Michio Kaku",
+            cover: "https://covers.openlibrary.org/b/isbn/9780385530804-L.jpg"
         }
     ]
 };

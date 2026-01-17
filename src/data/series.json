@@ -1,0 +1,193 @@
+{
+    "stats": {
+        "completed": 13,
+        "watching": 9,
+        "watchlist": 23
+    },
+    "completed": [
+        {
+            "title": "The Big Bang Theory",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg"
+        },
+        {
+            "title": "Young Sheldon",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/kidkbZRBGbsEIrX7pODRSKi9ipl.jpg"
+        },
+        {
+            "title": "Friends",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/f496cm9enuEsZkSPzCwnTESEK5s.jpg"
+        },
+        {
+            "title": "Mr. Bean",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/pUNQV35kDaKuejnXGNiUeEBurNE.jpg"
+        },
+        {
+            "title": "Panchayat",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/cPPhduQk1eX0MAE2JDaQRh3UZB5.jpg"
+        },
+        {
+            "title": "Aspirants",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/eHE0q1hhUnVkfJlZ22bSQqZeLKn.jpg"
+        },
+        {
+            "title": "Asur",
+            "image": "https://image.tmdb.org/t/p/original/njUrr755WzIrNfuUwQhpu2ljjH4.jpg"
+        },
+        {
+            "title": "Cubicles",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/vfjIBMXJK8rmvJ3SrAInlhM7v5e.jpg"
+        },
+        {
+            "title": "Kota Factory",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fMBookmwL6HjIgIVTjQ6EMr3pCH.jpg"
+        },
+        {
+            "title": "Hostel Daze",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/5GZQ9BWhCifOe82PngY1xgqVEuG.jpg"
+        },
+        {
+            "title": "Farzi",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/cTS86RwEBIDgCgUmjWQTSoPsK6p.jpg"
+        },
+        {
+            "title": "Scam 1992",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fiimZ9Xt5cPTPHNrbS4QautBXpU.jpg"
+        },
+        {
+            "title": "Scam 2003",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/wsTVqPNNOOvUXKRJv0DstHUDIw8.jpg"
+        }
+    ],
+    "watching": [
+        {
+            "title": "Modern Family",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg"
+        },
+        {
+            "title": "Dark",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg"
+        },
+        {
+            "title": "Georgie and Mandy's First Marriage",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3z2mYFxUkzanb2eeIcVyfJq0G3q.jpg"
+        },
+        {
+            "title": "Chernobyl",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"
+        },
+        {
+            "title": "The Family Man",
+            "image": "https://media.themoviedb.org/t/p/original/tE1NUJqw9gV6AVjQ1GTK78LbWJ9.jpg"
+        },
+        {
+            "title": "Special Ops",
+            "image": "https://media.themoviedb.org/t/p/w500/rTOGcNzVMYGezpx9AxX7ilzLNEp.jpg"
+        },
+        {
+            "title": "Rocket Boys",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/esNv5JwxVsvu6vZE7bTVeu0mLaA.jpg"
+        },
+        {
+            "title": "Criminal Justice",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/eac9ylXW2mazqOI5L50uY9Rvmxr.jpg"
+        },
+        {
+            "title": "Maharani",
+            "image": "https://media.themoviedb.org/t/p/w500/g3ublqmXx9SH8ksY61OPkZRoN3I.jpg"
+        }
+    ],
+    "watchlist": [
+        {
+            "title": "Fresh Off the Boat",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/o8ekdtv98EnrymVLw3VJ2WoFBoM.jpg"
+        },
+        {
+            "title": "Man with a Plan",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fCJMHR0GmR4layd4KQXC1HUPMlf.jpg"
+        },
+        {
+            "title": "Brooklyn Nine-Nine",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/A3SymGlOHefSKbz1bCOz56moupS.jpg"
+        },
+        {
+            "title": "How I Met Your Mother",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg"
+        },
+        {
+            "title": "The Office",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/dg9e5fPRRId8PoBE0F6jl5y85Eu.jpg"
+        },
+        {
+            "title": "Narcos",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/rTmal9fDbwh5F0waol2hq35U4ah.jpg"
+        },
+        {
+            "title": "The Sopranos",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg"
+        },
+        {
+            "title": "Two and a Half Men",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/xgfjxyV3g1S68opzuvG6G87muDp.jpg"
+        },
+        {
+            "title": "Stranger Things",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
+        },
+        {
+            "title": "Silicon Valley",
+            "image": "https://image.tmdb.org/t/p/w1280/4ptpmWBVD9HY9hMh8Cbs6SMiy7p.jpg"
+        },
+        {
+            "title": "Succession",
+            "image": "https://image.tmdb.org/t/p/w1280/z0XiwdrCQ9yVIr4O0pxzaAYRxdW.jpg"
+        },
+        {
+            "title": "True Detective",
+            "image": "https://image.tmdb.org/t/p/w1280/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
+        },
+        {
+            "title": "Family Guy",
+            "image": "https://image.tmdb.org/t/p/w1280/8o8kiBkWFK3gVytHdyzEWUBXVfK.jpg"
+        },
+        {
+            "title": "The Simpsons",
+            "image": "https://image.tmdb.org/t/p/w1280/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg"
+        },
+        {
+            "title": "Malcolm in the Middle",
+            "image": "https://image.tmdb.org/t/p/w1280/ckLLIsNy3Z0Go1PYHA2PHzVymUA.jpg"
+        },
+        {
+            "title": "Breaking Bad",
+            "image": "https://image.tmdb.org/t/p/w1280/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+        },
+        {
+            "title": "Better Call Saul",
+            "image": "https://image.tmdb.org/t/p/w1280/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg"
+        },
+        {
+            "title": "Money Heist",
+            "image": "https://image.tmdb.org/t/p/w1280/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg"
+        },
+        {
+            "title": "Peaky Blinders",
+            "image": "https://image.tmdb.org/t/p/w1280/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg"
+        },
+        {
+            "title": "Alice in Borderland",
+            "image": "https://image.tmdb.org/t/p/w1280/Ac8ruycRXzgcsndTZFK6ouGA0FA.jpg"
+        },
+        {
+            "title": "Squid Game",
+            "image": "https://image.tmdb.org/t/p/w1280/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg"
+        },
+        {
+            "title": "1899",
+            "image": "https://image.tmdb.org/t/p/w1280/gZleGu1MQVBArH2dlpZ9CGi0hhy.jpg"
+        },
+        {
+            "title": "The Good Doctor",
+            "image": "https://image.tmdb.org/t/p/w1280/luhKkdD80qe62fwop6sdrXK9jUT.jpg"
+        }
+    ]
+}

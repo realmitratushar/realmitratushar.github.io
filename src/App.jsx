@@ -12,9 +12,9 @@ import WeatherBackground from './components/WeatherBackground';
 
 // Hobby Pages
 import Movies from './components/hobbies/Movies';
-import Sitcoms from './components/hobbies/Sitcoms';
+import Series from './components/hobbies/Series';
 import Books from './components/hobbies/Books';
-import Songs from './components/hobbies/Songs';
+import Blogs from './components/hobbies/Blogs';
 import Sports from './components/hobbies/Sports';
 import Travel from './components/hobbies/Travel';
 
@@ -38,9 +38,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movies" element={<Movies />} />
-        <Route path="/series" element={<Sitcoms />} />
+        <Route path="/series" element={<Series />} />
         <Route path="/books" element={<Books />} />
-        <Route path="/songs" element={<Songs />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/sports" element={<Sports />} />
         <Route path="/travel" element={<Travel />} />
       </Routes>

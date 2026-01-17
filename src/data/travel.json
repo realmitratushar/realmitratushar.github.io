@@ -267,13 +267,6 @@
             "description": "Pink City"
         },
         {
-            "id": 39,
-            "name": "Mount Abu",
-            "lat": 24.5926,
-            "lng": 72.7156,
-            "description": "Hill Station"
-        },
-        {
             "id": 40,
             "name": "Mumbai",
             "lat": 19.0760,

@@ -2,7 +2,7 @@ import React from 'react';
 import Section from './ui/Section';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { MdMovie, MdTv, MdBook, MdMusicNote, MdSportsSoccer, MdFlight } from 'react-icons/md';
+import { MdMovie, MdTv, MdBook, MdArticle, MdSportsSoccer, MdFlight } from 'react-icons/md';
 
 const hobbiesData = [
     {
@@ -27,11 +27,11 @@ const hobbiesData = [
         description: 'Diving into fictional worlds and non-fiction insights.'
     },
     {
-        id: 'songs',
-        title: 'Songs',
-        icon: <MdMusicNote className="w-8 h-8" />,
-        color: 'bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400',
-        description: 'Vibing to melodies from around the globe.'
+        id: 'blogs',
+        title: 'Blogs',
+        icon: <MdArticle className="w-8 h-8" />,
+        color: 'bg-teal-100 text-teal-600 dark:bg-teal-900/30 dark:text-teal-400',
+        description: 'Thoughts on tech, life, and personal experiences.'
     },
     {
         id: 'sports',
