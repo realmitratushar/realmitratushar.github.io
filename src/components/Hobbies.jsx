@@ -2,7 +2,7 @@ import React from 'react';
 import Section from './ui/Section';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { MdMovie, MdTv, MdBook, MdArticle, MdSportsSoccer, MdFlight } from 'react-icons/md';
+import { MdMovie, MdTv, MdBook, MdArticle, MdFlight } from 'react-icons/md';
 
 const hobbiesData = [
     {
@@ -26,26 +26,21 @@ const hobbiesData = [
         color: 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400',
         description: 'Diving into fictional worlds and non-fiction insights.'
     },
-    {
-        id: 'blogs',
-        title: 'Blogs',
-        icon: <MdArticle className="w-8 h-8" />,
-        color: 'bg-teal-100 text-teal-600 dark:bg-teal-900/30 dark:text-teal-400',
-        description: 'Thoughts on tech, life, and personal experiences.'
-    },
-    {
-        id: 'sports',
-        title: 'Sports',
-        icon: <MdSportsSoccer className="w-8 h-8" />,
-        color: 'bg-orange-100 text-orange-600 dark:bg-orange-900/30 dark:text-orange-400',
-        description: 'Following the thrill of competitive sports.'
-    },
+
+    // Songs removed as per request
     {
         id: 'travel',
         title: 'Travel',
         icon: <MdFlight className="w-8 h-8" />,
         color: 'bg-cyan-100 text-cyan-600 dark:bg-cyan-900/30 dark:text-cyan-400',
         description: 'Discovering new places and cultures.'
+    },
+    {
+        id: 'blogs',
+        title: 'Blogs',
+        icon: <MdArticle className="w-8 h-8" />,
+        color: 'bg-teal-100 text-teal-600 dark:bg-teal-900/30 dark:text-teal-400',
+        description: 'Thoughts on tech, life, and personal experiences.'
     }
 ];
 
