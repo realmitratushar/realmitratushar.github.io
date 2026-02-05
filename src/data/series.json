@@ -1,10 +1,14 @@
 {
     "stats": {
-        "completed": 13,
+        "completed": 14,
         "watching": 9,
-        "watchlist": 23
+        "watchlist": 25
     },
     "completed": [
+        {
+            "title": "Modern Family",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg"
+        },
         {
             "title": "The Big Bang Theory",
             "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg"
@@ -60,8 +64,8 @@
     ],
     "watching": [
         {
-            "title": "Modern Family",
-            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg"
+            "title": "Brooklyn Nine-Nine",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/A3SymGlOHefSKbz1bCOz56moupS.jpg"
         },
         {
             "title": "Dark",
@@ -98,16 +102,24 @@
     ],
     "watchlist": [
         {
+            "title": "Parks and Recreation",
+            "image": "https://image.tmdb.org/t/p/w1280/5IOj62y2Eb2ngyYmEn1IJ7bFhzH.jpg"
+        },
+        {
+            "title": "Community",
+            "image": "https://image.tmdb.org/t/p/w1280/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg"
+        },
+        {
+            "title": "Schitt's Creek",
+            "image": "https://image.tmdb.org/t/p/w1280/iRfSzrPS5VYWQv7KVSEg2BZZL6C.jpg"
+        },
+        {
             "title": "Fresh Off the Boat",
             "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/o8ekdtv98EnrymVLw3VJ2WoFBoM.jpg"
         },
         {
             "title": "Man with a Plan",
             "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fCJMHR0GmR4layd4KQXC1HUPMlf.jpg"
-        },
-        {
-            "title": "Brooklyn Nine-Nine",
-            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/A3SymGlOHefSKbz1bCOz56moupS.jpg"
         },
         {
             "title": "How I Met Your Mother",
