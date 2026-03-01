@@ -15,13 +15,41 @@ const LIBRARY = {
         },
         {
             id: 'r2',
+            title: "Salman Khan: Sultan of Bollywood",
+            author: "Mohar Basu",
+            cover: "https://m.media-amazon.com/images/I/71WQggzfGwL._SL1500_.jpg",
+            rating: 4
+        },
+        {
+            id: 'r3',
+            title: "Good Economics for Hard Times",
+            author: "Abhijit Banerjee",
+            cover: "https://images-na.ssl-images-amazon.com/images/P/9391165990.01.LZZZZZZZ.jpg",
+            rating: 4
+        },
+        {
+            id: 'r4',
+            title: "Mein Kampf",
+            author: "Adolf Hitler",
+            cover: "https://rukminim2.flixcart.com/image/1536/1536/xif0q/book/q/c/6/-original-imagxnfaepqzzht3.jpeg?q=90",
+            rating: 0
+        },
+        {
+            id: 'r5',
+            title: "Wings of Fire",
+            author: "A.P.J. Abdul Kalam",
+            cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588286863i/634583.jpg",
+            rating: 0
+        }
+    ],
+    completed: [
+        {
+            id: 'c20',
             title: "Tuesdays with Morrie",
             author: "Mitch Albom",
             cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1423763749i/6900.jpg",
             rating: 5
-        }
-    ],
-    completed: [
+        },
         {
             id: 'c1',
             title: "Ikigai",
@@ -180,12 +208,6 @@ const LIBRARY = {
             title: "The Godfather",
             author: "Mario Puzo",
             cover: "https://covers.openlibrary.org/b/isbn/9780451205766-L.jpg"
-        },
-        {
-            id: 'w5',
-            title: "Good Economics for Hard Times",
-            author: "Abhijit Banerjee",
-            cover: "https://images-na.ssl-images-amazon.com/images/P/9391165990.01.LZZZZZZZ.jpg"
         },
         {
             id: 'w6',
