@@ -49,6 +49,12 @@
       "linkRel": "/film/avatar/"
     },
     {
+      "title": "The Lord of the Rings: The Return of the King (2003)",
+      "image": "https://image.tmdb.org/t/p/original/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+      "link": "https://letterboxd.com/film/the-lord-of-the-rings-the-return-of-the-king/",
+      "linkRel": "/film/the-lord-of-the-rings-the-return-of-the-king/"
+    },
+    {
       "title": "3 Idiots (2009)",
       "image": "https://a.ltrbxd.com/resized/film-poster/3/8/9/9/9/38999-3-idiots-0-125-0-187-crop.jpg?v=890bae83d8",
       "link": "https://letterboxd.com/film/3-idiots/",
@@ -233,12 +239,6 @@
       "image": "https://image.tmdb.org/t/p/original/qxQzavDrdBYGZVenGNHKXm6QLaL.jpg",
       "link": "https://letterboxd.com/film/bhool-bhulaiyaa/",
       "linkRel": "/film/bhool-bhulaiyaa/"
-    },
-    {
-      "title": "The Truman Show (1998)",
-      "image": "https://image.tmdb.org/t/p/original/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
-      "link": "https://letterboxd.com/film/the-truman-show/",
-      "linkRel": "/film/the-truman-show/"
     }
   ],
   "watchlist": [

@@ -1,6 +1,6 @@
 {
     "stats": {
-        "completed": 15,
+        "completed": 16,
         "watching": 8,
         "watchlist": 24
     },
@@ -64,6 +64,10 @@
         {
             "title": "Chernobyl",
             "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"
+        },
+        {
+            "title": "Taskaree",
+            "image": "https://image.tmdb.org/t/p/w1280/4ZTtFT94oCwC09yt8vQ1mEFwEeV.jpg"
         }
     ],
     "watching": [
