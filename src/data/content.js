@@ -154,15 +154,6 @@ export const experience = [
             "Our team 'Tech Titans' Qualified for the Screening Round of 'Smart India Hackathon'. We came in the Top 45 teams out of the 297 registered teams from our University. We submitted our presentation and prototype for the Geolocation-based Attendance System under Problem Statement 1707 for GAIL(Gas Authority of India Limited), under the Ministry of Petroleum and Natural Gas.",
             "After the Screening Round, we got selected for the Internal Hackathon Round. In this round, our problem statement, presentation and prototype was given for submission to be graded by the internal team of SIH 2024.",
         ],
-    },
-    {
-        company: "Research Publication",
-        role: "Reimagining Multilateralism: India acting as a bridge between economically developed and developing nations",
-        period: "2026",
-        description: [
-            "Authored and published a research paper analyzing India's strategic position and potential as a linking entity between developed and developing nations in the context of multilateralism."
-        ],
-        link: p5
     }
 ];
 
