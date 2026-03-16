@@ -28,11 +28,21 @@ const ExperienceItem = ({ exp, index }) => (
 
                 <h3 className="text-xl font-bold text-black dark:text-white">{exp.role}</h3>
                 <p className="text-lg text-black dark:text-slate-300 font-bold mb-2">{exp.company}</p>
-                <ul className="list-disc list-inside space-y-1 text-black dark:text-slate-400 text-sm md:text-base font-bold">
+                <ul className="list-disc list-inside space-y-1 text-black dark:text-slate-400 text-sm md:text-base font-bold mb-3">
                     {exp.description.map((desc, i) => (
                         <li key={i}>{desc}</li>
                     ))}
                 </ul>
+                {exp.link && (
+                    <a
+                        href={exp.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-sm font-bold text-primary-600 hover:text-primary-700 mt-2"
+                    >
+                        View Paper <span className="ml-1">→</span>
+                    </a>
+                )}
             </div>
         </div>
     </motion.div>

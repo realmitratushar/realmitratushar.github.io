@@ -7,6 +7,7 @@ import p1 from "./paper1.pdf";
 import p2 from "./paper2.pdf";
 import p3 from "./paper3.pdf";
 import p4 from "./paper4.pdf";
+import p5 from "./paper5.pdf";
 import kiitLogo from "./kiit.png"; // Placeholder: Ensure this file exists or update path
 import schoolLogo from "./school.png"; // Placeholder: Ensure this file exists or update path
 import pr1 from "./project1.png";
@@ -154,6 +155,15 @@ export const experience = [
             "After the Screening Round, we got selected for the Internal Hackathon Round. In this round, our problem statement, presentation and prototype was given for submission to be graded by the internal team of SIH 2024.",
         ],
     },
+    {
+        company: "Research Publication",
+        role: "Reimagining Multilateralism: India acting as a bridge between economically developed and developing nations",
+        period: "2026",
+        description: [
+            "Authored and published a research paper analyzing India's strategic position and potential as a linking entity between developed and developing nations in the context of multilateralism."
+        ],
+        link: p5
+    }
 ];
 
 export const research = [
@@ -189,6 +199,14 @@ export const research = [
         link: p4,
         status: "Under Review",
     },
+    {
+        title: "Reimagining Multilateralism: India acting as a bridge between economically developed and developing nations",
+        authors: "Tushar Mitra, Sukriti Gupta",
+        year: "March 2026",
+        abstract: "In an era defined by geopolitical fragmentation and the erosion of a rules-based multilateral order, India has strategically positioned itself as the universal bridge between the Global North and the Global South. This research paper evaluates India’s multidimensional approach to Reimagining Multilateralism, examining how it balances the strategic interests of developed nations with the developmental aspirations of the emerging world.",
+        link: p5,
+        status: "To be published",
+    }
 ];
 
 export const socialLinks = [
