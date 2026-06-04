@@ -82,12 +82,12 @@ const Movies = () => {
                 <DirectorGrid directors={moviesData.directors} />
             )}
 
-            {moviesData.top40 && moviesData.top40.length > 0 && (
-                <MovieGrid movies={moviesData.top40} title="Top 40 Masterpieces" />
+            {moviesData.top50 && moviesData.top50.length > 0 && (
+                <MovieGrid movies={moviesData.top50} title="Top 50 Masterpieces" />
             )}
 
             {moviesData.watchlist && moviesData.watchlist.length > 0 && (
-                <MovieGrid movies={moviesData.watchlist.slice(0, 30)} title="Watchlist" />
+                <MovieGrid movies={moviesData.watchlist.slice(0, 50)} title="Watchlist" />
             )}
 
             <div className="mt-8 text-center">

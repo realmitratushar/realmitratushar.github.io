@@ -1,7 +1,7 @@
 {
     "stats": {
-        "completed": 16,
-        "watching": 8,
+        "completed": 17,
+        "watching": 7,
         "watchlist": 24
     },
     "completed": [
@@ -20,6 +20,10 @@
         {
             "title": "Friends",
             "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/f496cm9enuEsZkSPzCwnTESEK5s.jpg"
+        },
+        {
+            "title": "Brooklyn Nine-Nine",
+            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/A3SymGlOHefSKbz1bCOz56moupS.jpg"
         },
         {
             "title": "Mr. Bean",
@@ -71,10 +75,6 @@
         }
     ],
     "watching": [
-        {
-            "title": "Brooklyn Nine-Nine",
-            "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/A3SymGlOHefSKbz1bCOz56moupS.jpg"
-        },
         {
             "title": "Dark",
             "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg"

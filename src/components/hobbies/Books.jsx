@@ -10,193 +10,162 @@ const LIBRARY = {
             id: 'r1',
             title: "The Art of War",
             author: "Sun Tzu",
-            cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630683326i/10534.jpg",
-            rating: 4.5
-        },
-        {
-            id: 'r2',
-            title: "Salman Khan: Sultan of Bollywood",
-            author: "Mohar Basu",
-            cover: "https://m.media-amazon.com/images/I/71WQggzfGwL._SL1500_.jpg",
-            rating: 4
+            cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630683326i/10534.jpg"
         },
         {
             id: 'r3',
             title: "Good Economics for Hard Times",
             author: "Abhijit Banerjee",
-            cover: "https://images-na.ssl-images-amazon.com/images/P/9391165990.01.LZZZZZZZ.jpg",
-            rating: 4
+            cover: "https://images-na.ssl-images-amazon.com/images/P/9391165990.01.LZZZZZZZ.jpg"
         },
         {
             id: 'r4',
             title: "Mein Kampf",
             author: "Adolf Hitler",
-            cover: "https://rukminim2.flixcart.com/image/1536/1536/xif0q/book/q/c/6/-original-imagxnfaepqzzht3.jpeg?q=90",
-            rating: 0
+            cover: "https://rukminim2.flixcart.com/image/1536/1536/xif0q/book/q/c/6/-original-imagxnfaepqzzht3.jpeg?q=90"
         },
         {
             id: 'r5',
             title: "Wings of Fire",
             author: "A.P.J. Abdul Kalam",
-            cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588286863i/634583.jpg",
-            rating: 0
+            cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588286863i/634583.jpg"
         }
     ],
     completed: [
         {
+            id: 'c22',
+            title: "Field Marshal Sam Manekshaw",
+            author: "Hanadi Falki",
+            cover: "https://m.media-amazon.com/images/I/71pg7XZrmWL._UF1000,1000_QL80_.jpg"
+        },
+        {
+            id: 'c21',
+            title: "Salman Khan: Sultan of Bollywood",
+            author: "Mohar Basu",
+            cover: "https://m.media-amazon.com/images/I/71WQggzfGwL._SL1500_.jpg"
+        },
+        {
             id: 'c20',
             title: "Tuesdays with Morrie",
             author: "Mitch Albom",
-            cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1423763749i/6900.jpg",
-            rating: 5
+            cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1423763749i/6900.jpg"
         },
         {
             id: 'c1',
             title: "Ikigai",
             author: "Héctor García",
-            cover: "https://images.randomhouse.com/cover/9780143130727",
-            rating: 5
+            cover: "https://images.randomhouse.com/cover/9780143130727"
         },
         {
             id: 'c2',
             title: "Life's Amazing Secrets",
             author: "Gaur Gopal Das",
-            cover: "https://covers.openlibrary.org/b/isbn/9780143442295-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780143442295-L.jpg"
         },
         {
             id: 'c3',
             title: "Attitude is Everything",
             author: "Jeff Keller",
-            cover: "https://m.media-amazon.com/images/I/41F8ATXoMOL._SY445_SX342_.jpg",
-            rating: 4.5
+            cover: "https://m.media-amazon.com/images/I/41F8ATXoMOL._SY445_SX342_.jpg"
         },
         {
             id: 'c4',
             title: "Rich Dad Poor Dad",
             author: "Robert Kiyosaki",
-            cover: "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg",
-            rating: 5
+            cover: "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg"
         },
         {
             id: 'c5',
             title: "The Diary of a Young Girl",
             author: "Anne Frank",
-            cover: "https://covers.openlibrary.org/b/isbn/9780385480338-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780385480338-L.jpg"
         },
         {
             id: 'c6',
             title: "A Tale of Two Cities",
             author: "Charles Dickens",
-            cover: "https://covers.openlibrary.org/b/isbn/9780451530578-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780451530578-L.jpg"
         },
         {
             id: 'c7',
             title: "A Christmas Carol",
             author: "Charles Dickens",
-            cover: "https://covers.openlibrary.org/b/isbn/9780553212440-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780553212440-L.jpg"
         },
         {
             id: 'c8',
             title: "Strange Case of Dr Jekyll and Mr Hyde",
             author: "Robert Louis Stevenson",
-            cover: "https://covers.openlibrary.org/b/isbn/9780486266886-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780486266886-L.jpg"
         },
         {
             id: 'c9',
             title: "Kabuliwala",
             author: "Rabindranath Tagore",
-            cover: "https://covers.openlibrary.org/b/isbn/9780140188547-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780140188547-L.jpg"
         },
         {
             id: 'c10',
             title: "Robinson Crusoe",
             author: "Daniel Defoe",
-            cover: "https://covers.openlibrary.org/b/isbn/9780140430073-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780140430073-L.jpg"
         },
         {
             id: 'c11',
             title: "Treasure Island",
             author: "Robert Louis Stevenson",
-            cover: "https://covers.openlibrary.org/b/isbn/9780141192451-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780141192451-L.jpg"
         },
         {
             id: 'c12',
             title: "The Three Musketeers",
             author: "Alexandre Dumas",
-            cover: "https://covers.openlibrary.org/b/isbn/9780143105008-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780143105008-L.jpg"
         },
         {
             id: 'c13',
             title: "David Copperfield",
             author: "Charles Dickens",
-            cover: "https://covers.openlibrary.org/b/isbn/9780140439441-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780140439441-L.jpg"
         },
         {
             id: 'c14',
             title: "Around the World in Eighty Days",
             author: "Jules Verne",
-            cover: "https://covers.openlibrary.org/b/isbn/9780241468654-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780241468654-L.jpg"
         },
         {
             id: 'c15',
             title: "The Invisible Man",
             author: "H.G. Wells",
-            cover: "https://covers.openlibrary.org/b/isbn/9780198702672-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780198702672-L.jpg"
         },
         {
             id: 'c16',
             title: "The Jungle Book",
             author: "Rudyard Kipling",
-            cover: "https://covers.openlibrary.org/b/isbn/9780141325293-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780141325293-L.jpg"
         },
         {
             id: 'c17',
             title: "The Call of the Wild",
             author: "Jack London",
-            cover: "https://covers.openlibrary.org/b/isbn/9780241341490-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780241341490-L.jpg"
         },
         {
             id: 'c18',
             title: "Oliver Twist",
             author: "Charles Dickens",
-            cover: "https://covers.openlibrary.org/b/isbn/9780141439747-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780141439747-L.jpg"
         },
         {
             id: 'c19',
             title: "How I Taught My Grandmother to Read",
             author: "Sudha Murty",
-            cover: "https://covers.openlibrary.org/b/isbn/9780143333647-L.jpg",
-            rating: 5
+            cover: "https://covers.openlibrary.org/b/isbn/9780143333647-L.jpg"
         }
     ],
     wishlist: [
-        {
-            id: 'w1',
-            title: "Talk Like TED",
-            author: "Carmine Gallo",
-            cover: "https://covers.openlibrary.org/b/isbn/9781250061539-L.jpg"
-        },
-        {
-            id: 'w2',
-            title: "The 4-Hour Work Week",
-            author: "Timothy Ferriss",
-            cover: "https://covers.openlibrary.org/b/isbn/9780307465351-L.jpg"
-        },
         {
             id: 'w3',
             title: "Dracula",
@@ -636,6 +605,18 @@ const LIBRARY = {
             title: "Pachinko",
             author: "Min Jin Lee",
             cover: "https://covers.openlibrary.org/b/isbn/9781455563920-L.jpg"
+        },
+        {
+            id: 'w1',
+            title: "Talk Like TED",
+            author: "Carmine Gallo",
+            cover: "https://covers.openlibrary.org/b/isbn/9781250061539-L.jpg"
+        },
+        {
+            id: 'w2',
+            title: "The 4-Hour Work Week",
+            author: "Timothy Ferriss",
+            cover: "https://covers.openlibrary.org/b/isbn/9780307465351-L.jpg"
         },
         {
             id: 'w79',

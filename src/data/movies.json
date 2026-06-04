@@ -1,5 +1,5 @@
 {
-  "top40": [
+  "top50": [
     {
       "title": "Schindler's List (1993)",
       "image": "https://a.ltrbxd.com/resized/sm/upload/bz/1x/em/jr/yPisjyLweCl1tbgwgtzBCNCBle-0-125-0-187-crop.jpg?v=ca5215c5a9",
@@ -115,10 +115,40 @@
       "linkRel": "/film/the-fifth-element/"
     },
     {
-      "title": "Gangs of Wasseypur – Part 1 (2012)",
+      "title": "Gangs of Wasseypur - Part 1 (2012)",
       "image": "https://a.ltrbxd.com/resized/film-poster/9/3/2/9/6/93296-gangs-of-wasseypur-0-125-0-187-crop.jpg?v=44ba9f4ab0",
       "link": "https://letterboxd.com/film/gangs-of-wasseypur-part-1/",
       "linkRel": "/film/gangs-of-wasseypur-part-1/"
+    },
+    {
+      "title": "The Matrix (1999)",
+      "image": "https://image.tmdb.org/t/p/w1280/aOIuZAjPaRIE6CMzbazvcHuHXDc.jpg",
+      "link": "https://letterboxd.com/film/the-matrix/",
+      "linkRel": "/film/the-matrix/"
+    },
+    {
+      "title": "Terminator 2: Judgement Day (1991)",
+      "image": "https://image.tmdb.org/t/p/w1280/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+      "link": "https://letterboxd.com/film/terminator-2-judgment-day/",
+      "linkRel": "/film/terminator-2-judgment-day/"
+    },
+    {
+      "title": "Dhurandhar: The Revenge (2026)",
+      "image": "https://image.tmdb.org/t/p/w1280/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+      "link": "https://letterboxd.com/film/dhurandhar-the-revenge/",
+      "linkRel": "/film/dhurandhar-the-revenge/"
+    },
+    {
+      "title": "Dhurandhar (2025)",
+      "image": "https://image.tmdb.org/t/p/w1280/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+      "link": "https://letterboxd.com/film/dhurandhar/",
+      "linkRel": "/film/dhurandhar/"
+    },
+    {
+      "title": "The Matrix Reloaded (2003)",
+      "image": "https://image.tmdb.org/t/p/w1280/aA5qHS0FbSXO8PxcxUIHbDrJyuh.jpg",
+      "link": "https://letterboxd.com/film/the-matrix-reloaded/",
+      "linkRel": "/film/the-matrix-reloaded/"
     },
     {
       "title": "Kahaani (2012)",
@@ -239,6 +269,36 @@
       "image": "https://image.tmdb.org/t/p/original/qxQzavDrdBYGZVenGNHKXm6QLaL.jpg",
       "link": "https://letterboxd.com/film/bhool-bhulaiyaa/",
       "linkRel": "/film/bhool-bhulaiyaa/"
+    },
+    {
+      "title": "A Wednesday (2008)",
+      "image": "https://a.ltrbxd.com/resized/film-poster/3/9/4/6/7/39467-a-wednesday--0-2000-0-3000-crop.jpg?v=9fac8cdbd3",
+      "link": "https://letterboxd.com/film/a-wednesday/",
+      "linkRel": "/film/a-wednesday/"
+    },
+    {
+      "title": "Transformers (2007)",
+      "image": "https://image.tmdb.org/t/p/w1280/1P7w3AImoEOWJX7nn3fdaKDfEQA.jpg",
+      "link": "https://letterboxd.com/film/transformers/",
+      "linkRel": "/film/transformers/"
+    },
+    {
+      "title": "The Terminator (1984)",
+      "image": "https://image.tmdb.org/t/p/w1280/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+      "link": "https://letterboxd.com/film/the-terminator/",
+      "linkRel": "/film/the-terminator/"
+    },
+    {
+      "title": "Jumanji (1995)",
+      "image": "https://image.tmdb.org/t/p/w1280/2s0v5wRdbJGBMrLHxr9WB2rPUJI.jpg",
+      "link": "https://letterboxd.com/film/jumanji/",
+      "linkRel": "/film/jumanji/"
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of The Ring (2001)",
+      "image": "https://image.tmdb.org/t/p/w1280/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+      "link": "https://letterboxd.com/film/the-lord-of-the-rings-the-fellowship-of-the-ring/",
+      "linkRel": "/film/the-lord-of-the-rings-the-fellowship-of-the-ring/"
     }
   ],
   "watchlist": [
@@ -345,10 +405,10 @@
       "linkRel": "/film/36-chowringhee-lane/"
     },
     {
-      "title": "A Wednesday! (2008)",
-      "image": "https://a.ltrbxd.com/resized/film-poster/3/9/4/6/7/39467-a-wednesday--0-2000-0-3000-crop.jpg?v=9fac8cdbd3",
-      "link": "https://letterboxd.com/film/a-wednesday/",
-      "linkRel": "/film/a-wednesday/"
+      "title": "One Flew Over the Cuckoo's Nest (1975)",
+      "image": "https://image.tmdb.org/t/p/w1280/kjWsMh72V6d8KRLV4EOoSJLT1H7.jpg",
+      "link": "https://letterboxd.com/film/one-flew-over-the-cuckoos-nest/",
+      "linkRel": "/film/one-flew-over-the-cuckoos-nest/"
     },
     {
       "title": "Teesri Kasam (1966)",
@@ -357,10 +417,10 @@
       "linkRel": "/film/teesri-kasam/"
     },
     {
-      "title": "Chitchor (1976)",
-      "image": "https://a.ltrbxd.com/resized/film-poster/7/9/4/1/4/79414-chitchor-0-2000-0-3000-crop.jpg?v=5d6c10c39a",
-      "link": "https://letterboxd.com/film/chitchor/",
-      "linkRel": "/film/chitchor/"
+      "title": "No Country for Old Men (2007)",
+      "image": "https://image.tmdb.org/t/p/w1280/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+      "link": "https://letterboxd.com/film/no-country-for-old-men/",
+      "linkRel": "/film/no-country-for-old-men/"
     },
     {
       "title": "Khamoshi : The Musical (1996)",
@@ -421,6 +481,126 @@
       "image": "https://a.ltrbxd.com/resized/film-poster/3/8/3/6/5/38365-bobby-0-2000-0-3000-crop.jpg?v=172e1c26b4",
       "link": "https://letterboxd.com/film/bobby/",
       "linkRel": "/film/bobby/"
+    },
+    {
+      "title": "Apocalypse Now (1978)",
+      "image": "https://image.tmdb.org/t/p/w1280/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
+      "link": "https://letterboxd.com/film/apocalypse-now/",
+      "linkRel": "/film/apocalypse-now/"
+    },
+    {
+      "title": "Whiplash (2014)",
+      "image": "https://image.tmdb.org/t/p/w1280/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "link": "https://letterboxd.com/film/whiplash/",
+      "linkRel": "/film/whiplash/"
+    },
+    {
+      "title": "Inglourious Basterds (2009)",
+      "image": "https://image.tmdb.org/t/p/w1280/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
+      "link": "https://letterboxd.com/film/inglourious-basterds/",
+      "linkRel": "/film/inglourious-basterds/"
+    },
+    {
+      "title": "Fight Club (1999)",
+      "image": "https://image.tmdb.org/t/p/w1280/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+      "link": "https://letterboxd.com/film/fight-club/",
+      "linkRel": "/film/fight-club/"
+    },
+    {
+      "title": "The Lunchbox (2013)",
+      "image": "https://image.tmdb.org/t/p/w1280/eZvdKgnFLjkxe9rpYZhRMLE0X0U.jpg",
+      "link": "https://letterboxd.com/film/the-lunchbox/",
+      "linkRel": "/film/the-lunchbox/"
+    },
+    {
+      "title": "Die Hard (1988)",
+      "image": "https://image.tmdb.org/t/p/w1280/7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+      "link": "https://letterboxd.com/film/die-hard/",
+      "linkRel": "/film/die-hard/"
+    },
+    {
+      "title": "Nadiya Ke Par (1982)",
+      "image": "https://image.tmdb.org/t/p/w1280/1qhUaP7kqsbO7P6JWgjITtkWnfn.jpg",
+      "link": "https://letterboxd.com/film/nadiya-ke-par/",
+      "linkRel": "/film/nadiya-ke-par/"
+    },
+    {
+      "title": "Madhumati (1958)",
+      "image": "https://image.tmdb.org/t/p/w1280/8dKXnOmb79PuzTmowgQkREYy010.jpg",
+      "link": "https://letterboxd.com/film/madhumati/",
+      "linkRel": "/film/madhumati/"
+    },
+    {
+      "title": "Karthik Calling Karthik (2010)",
+      "image": "https://image.tmdb.org/t/p/w1280/8mIVy8A07asmB9vOSREI9x7kvSd.jpg",
+      "link": "https://letterboxd.com/film/karthik-calling-karthik/",
+      "linkRel": "/film/karthik-calling-karthik/"
+    },
+    {
+      "title": "Trishul (1978)",
+      "image": "https://image.tmdb.org/t/p/w1280/tmxAyMFJRYDambW54HnSs5lqfpY.jpg",
+      "link": "https://letterboxd.com/film/trishul/",
+      "linkRel": "/film/trishul/"
+    },
+    {
+      "title": "Muqaddar Ka Sikandar (1978)",
+      "image": "https://image.tmdb.org/t/p/w1280/lm4Zlk53kuByV7eK2Y0PKTqvrU0.jpg",
+      "link": "https://letterboxd.com/film/muqaddar-ka-sikandar/",
+      "linkRel": "/film/muqaddar-ka-sikandar/"
+    },
+    {
+      "title": "Mr. India (1987)",
+      "image": "https://image.tmdb.org/t/p/w1280/nqDJ8vuVFYymUhOUKcGCZoHy4tu.jpg",
+      "link": "https://letterboxd.com/film/mr-india/",
+      "linkRel": "/film/mr-india/"
+    },
+    {
+      "title": "Balika Badhu (1976)",
+      "image": "https://image.tmdb.org/t/p/w1280/uXIEuRhwSa4m673fGI6DY0zuTO2.jpg",
+      "link": "https://letterboxd.com/film/balika-badhu/",
+      "linkRel": "/film/balika-badhu/"
+    },
+    {
+      "title": "Jab We Met (2007)",
+      "image": "https://image.tmdb.org/t/p/w1280/iqiH6vnoEgjAypKsuIScN7JlE2j.jpg",
+      "link": "https://letterboxd.com/film/jab-we-met/",
+      "linkRel": "/film/jab-we-met/"
+    },
+    {
+      "title": "The Devil Wears Prada (2006)",
+      "image": "https://image.tmdb.org/t/p/w1280/8912AsVuS7Sj915apArUFbv6F9L.jpg",
+      "link": "https://letterboxd.com/film/the-devil-wears-prada/",
+      "linkRel": "/film/the-devil-wears-prada/"
+    },
+    {
+      "title": "Swades (2004)",
+      "image": "https://image.tmdb.org/t/p/w1280/yUSL24kpHc9Nls4Pohia4shgcIM.jpg",
+      "link": "https://letterboxd.com/film/swades/",
+      "linkRel": "/film/swades/"
+    },
+    {
+      "title": "Half Ticket (1962)",
+      "image": "https://image.tmdb.org/t/p/w1280/8e9scFdrXceSK0SdoGnQzCr9y9U.jpg",
+      "link": "https://letterboxd.com/film/half-ticket/",
+      "linkRel": "/film/half-ticket/"
+    },
+    {
+      "title": "Malamaal Weekly (2006)",
+      "image": "https://image.tmdb.org/t/p/w1280/kGYn1rK0XBciKqnGHtLSnzJw6Gf.jpg",
+      "link": "https://letterboxd.com/film/malamaal-weekly/",
+      "linkRel": "/film/malamaal-weekly/"
+    },
+    {
+      "title": "Bombay to Goa (1972)",
+      "image": "https://image.tmdb.org/t/p/w1280/vbwZBOBVYrnIlTZgmNmYSCrIR2c.jpg",
+      "link": "https://letterboxd.com/film/bombay-to-goa/",
+      "linkRel": "/film/bombay-to-goa/"
+    },
+    {
+      "title": "Howrah Bridge (1958)",
+      "image": "https://image.tmdb.org/t/p/w1280/jcZQRmXILaz02jLlyHfjGopkBDu.jpg",
+      "link": "https://letterboxd.com/film/howrah-bridge/",
+      "linkRel": "/film/howrah-bridge/"
     }
   ],
   "directors": [
