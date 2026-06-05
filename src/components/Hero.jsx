@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { personalInfo, socialLinks } from '../data/content';
+import { personalInfo, socialLinks, professionalLinks, codingLinks } from '../data/content';
 
 const useTypewriter = (phrases, speed = 150, deleteSpeed = 50, waitTime = 2000) => {
     const [text, setText] = useState('');
@@ -92,20 +92,61 @@ const Hero = () => {
 
                     </div>
 
-                    {/* Social Icons */}
-                    <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
-                        {socialLinks.map((link) => (
-                            <a
-                                key={link.name}
-                                href={link.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="p-3 bg-white dark:bg-slate-800 rounded-full text-black dark:text-slate-400 hover:text-white hover:bg-primary-500 dark:hover:bg-primary-600 transition-all border border-slate-200 dark:border-slate-700 hover-glow"
-                                aria-label={link.name}
-                            >
-                                <link.icon className="w-5 h-5" />
-                            </a>
-                        ))}
+                    {/* Personal Social Icons */}
+                    <div className="mt-8">
+                        <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3 text-center md:text-left">Social Links</h3>
+                        <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                            {socialLinks.map((link) => (
+                                <a
+                                    key={link.name}
+                                    href={link.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="p-3 bg-white dark:bg-slate-800 rounded-full text-black dark:text-slate-400 hover:text-white hover:bg-primary-500 dark:hover:bg-primary-600 transition-all border border-slate-200 dark:border-slate-700 hover-glow"
+                                    aria-label={link.name}
+                                >
+                                    <link.icon className="w-5 h-5" />
+                                </a>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Professional Icons */}
+                    <div className="mt-6">
+                        <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3 text-center md:text-left">Professional Links</h3>
+                        <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                            {professionalLinks.map((link) => (
+                                <a
+                                    key={link.name}
+                                    href={link.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="p-3 bg-white dark:bg-slate-800 rounded-full text-black dark:text-slate-400 hover:text-white hover:bg-primary-500 dark:hover:bg-primary-600 transition-all border border-slate-200 dark:border-slate-700 hover-glow"
+                                    aria-label={link.name}
+                                >
+                                    <link.icon className="w-5 h-5" />
+                                </a>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Coding Icons */}
+                    <div className="mt-6">
+                        <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3 text-center md:text-left">Coding Links</h3>
+                        <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                            {codingLinks.map((link) => (
+                                <a
+                                    key={link.name}
+                                    href={link.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="p-3 bg-white dark:bg-slate-800 rounded-full text-black dark:text-slate-400 hover:text-white hover:bg-primary-500 dark:hover:bg-primary-600 transition-all border border-slate-200 dark:border-slate-700 hover-glow"
+                                    aria-label={link.name}
+                                >
+                                    <link.icon className="w-5 h-5" />
+                                </a>
+                            ))}
+                        </div>
                     </div>
                 </motion.div>
 

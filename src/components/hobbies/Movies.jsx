@@ -42,7 +42,7 @@ const MovieGrid = ({ movies, title }) => (
 const DirectorGrid = ({ directors }) => (
     <div className="mb-12">
         <h2 className="text-2xl font-bold text-black dark:text-white mb-6 border-l-4 border-primary-500 pl-4">
-            Favorite Directors
+            Favourite Directors
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             {directors.map((director, index) => (

@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from './ui/Section';
-import { personalInfo, socialLinks } from '../data/content';
+import { personalInfo, professionalLinks, codingLinks } from '../data/content';
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -25,8 +25,8 @@ const About = () => {
                     <div className="space-y-4">
                         <h3 className="font-bold text-black dark:text-white text-xl">Coding Profiles</h3>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            {socialLinks.filter(link =>
-                                ['GitHub', 'LinkedIn', 'LeetCode', 'CodeForces', 'HackerRank', 'HuggingFace'].includes(link.name)
+                            {[...professionalLinks, ...codingLinks].filter(link =>
+                                ['GitHub', 'LinkedIn', 'LeetCode', 'CodeForces', 'HackerRank', 'HuggingFace', 'ResearchGate'].includes(link.name)
                             ).map((link) => (
                                 <a
                                     key={link.name}

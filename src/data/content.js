@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaCode, FaLaptopCode, FaBook, FaEnvelope, FaBrain, FaBolt, FaUtensils, FaAws, FaGoogle, FaMicrosoft, FaUniversity, FaSchool, FaCodeBranch } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaCode, FaLaptopCode, FaBook, FaEnvelope, FaBrain, FaBolt, FaUtensils, FaAws, FaGoogle, FaMicrosoft, FaUniversity, FaSchool, FaCodeBranch, FaInstagram, FaFacebook } from "react-icons/fa";
 // Add other icons as needed from react-icons
 import profilePhoto from "./photo.jpg";
 import profilePhotoFull from "./photo2.jpg";
@@ -50,7 +50,7 @@ export const education = [
 ];
 
 import { DiJava, DiPython, DiMysql, DiMongodb, DiHtml5, DiCss3, DiGit, DiDocker, DiLinux, DiTerminal } from "react-icons/di";
-import { SiC, SiPytorch, SiTensorflow, SiScikitlearn, SiPandas, SiNumpy } from "react-icons/si";
+import { SiC, SiPytorch, SiTensorflow, SiScikitlearn, SiPandas, SiNumpy, SiResearchgate } from "react-icons/si";
 
 export const skills = {
     languages: [
@@ -201,13 +201,22 @@ export const research = [
 ];
 
 export const socialLinks = [
+    { name: "Twitter", icon: FaTwitter, url: "https://twitter.com/mitratushar04" },
+    { name: "Facebook", icon: FaFacebook, url: "https://www.facebook.com/tushar.mitra.746305/" },
+    { name: "Instagram", icon: FaInstagram, url: "https://www.instagram.com/beingtusharmitra" },
+];
+
+export const professionalLinks = [
     { name: "GitHub", icon: FaGithub, url: "https://github.com/realmitratushar", stats: "9 Public Repositories" },
     { name: "LinkedIn", icon: FaLinkedin, url: "https://www.linkedin.com/in/tushar-mitra-867028261/", stats: "500+ Connections" },
-    { name: "Twitter", icon: FaTwitter, url: "https://twitter.com/mitratushar04" },
     { name: "HuggingFace", icon: FaBrain, url: "https://huggingface.co/realmitratushar", stats: "3 Models" },
+    { name: "ResearchGate", icon: SiResearchgate, url: "https://www.researchgate.net/profile/Tushar-Mitra-2", stats: "4 Research Papers" },
+];
+
+export const codingLinks = [
     { name: "LeetCode", icon: FaCode, url: "https://leetcode.com/u/mitratushar04/", stats: "121 Solved" },
     { name: "CodeForces", icon: FaBolt, url: "https://codeforces.com/profile/mitratushar", stats: "Rating: 756 (Newbie)" },
     { name: "HackerRank", icon: FaCodeBranch, url: "https://www.hackerrank.com/profile/tushar24_mitra", stats: "4 Star (Problem Solving)" },
-    { name: "HackerEarth", icon: FaLaptopCode, url: "https://www.hackerearth.com/@tushar24.mitra" },
     { name: "CodeChef", icon: FaUtensils, url: "https://www.codechef.com/users/mitratushar04" },
+    { name: "HackerEarth", icon: FaLaptopCode, url: "https://www.hackerearth.com/@tushar24.mitra" },
 ];

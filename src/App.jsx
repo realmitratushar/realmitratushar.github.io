@@ -15,6 +15,7 @@ import Movies from './components/hobbies/Movies';
 import Series from './components/hobbies/Series';
 import Books from './components/hobbies/Books';
 import Blogs from './components/hobbies/Blogs';
+import BlogCategory from './components/hobbies/BlogCategory';
 
 import Travel from './components/hobbies/Travel';
 
@@ -43,6 +44,7 @@ function App() {
 
         <Route path="/travel" element={<Travel />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:category" element={<BlogCategory />} />
       </Routes>
     </Layout>
   );
