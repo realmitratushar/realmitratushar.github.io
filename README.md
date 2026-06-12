@@ -1,88 +1,29 @@
-# Professional Portfolio Website
+# Professional Portfolio Website Design
 
-A modern, responsive, and performance-optimized personal website built with **React**, **Vite**, and **Tailwind CSS**.
+This repository showcases the design architecture and aesthetics of a modern, responsive, and performance-optimized personal portfolio website.
 
-## Features
+## Design Philosophy
 
-- 🎨 **Modern Design**: Clean, minimal, and mobile-first.
-- 🌙 **Dark/Light Mode**: Persisted theme preferences.
-- 🚀 **Fast Performance**: Optimized with Vite, Code-splitting, and lazy loading.
-- ♿ **Accessible**: Semantic HTML, ARIA attributes, and keyboard navigation.
-- 📱 **Responsive**: Perfect on Mobile, Tablet, and Desktop.
-- 🛠 **Easy Customization**: Centralized content file.
+The design focuses on a clean, minimal, and mobile-first approach, ensuring the content is the primary focus while providing a delightful user experience.
 
-## Tech Stack
+### Key Design Features
 
-- **Framework**: React 18 + Vite
-- **Styling**: Tailwind CSS + PostCSS
-- **Animations**: Framer Motion
-- **Icons**: React Icons (FontAwesome, Material, etc.)
+- 🎨 **Modern Aesthetics**: A clean and uncluttered interface using whitespace effectively to guide the user's eye.
+- 🌙 **Dark/Light Mode**: Full support for both dark and light themes, with carefully selected color palettes for each mode to reduce eye strain and provide a premium feel.
+- 📱 **Responsive Layout**: Fluid grids and flexible typography that adapt perfectly across mobile phones, tablets, and large desktop screens.
+- ✨ **Micro-interactions & Animations**: Subtle, smooth animations implemented to provide feedback and bring the interface to life without being distracting.
+- ♿ **Accessible Design**: High contrast text, semantic HTML, and clear visual hierarchies to ensure the site is usable by everyone.
 
-## Getting Started
+## Typography and Colors
 
-### Prerequisites
+- **Typography**: Uses modern, highly legible sans-serif fonts to maintain a professional yet approachable look.
+- **Color Theme**: The primary color palette is designed to be easily adjustable while maintaining accessibility standards, utilizing a robust utility-first styling system.
 
-- Node.js (v16 or higher)
-- npm or yarn
+## Visual Components
 
-### Installation
+- **Hero Section**: A striking introductory area designed to make a strong first impression.
+- **Projects Showcase**: A grid-based layout for displaying work with hover effects and clear calls to action.
+- **Experience Timeline**: A vertical timeline design to neatly present professional history.
+- **Skills Matrix**: Organized categorization of technical proficiencies.
 
-1.  Clone the repository (or extract the zip):
-    ```bash
-    git clone <your-repo-url>
-    cd sprint-4
-    ```
-
-2.  Install dependencies:
-    ```bash
-    npm install
-    ```
-
-3.  Start the development server:
-    ```bash
-    npm run dev
-    ```
-
-4.  Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-## Customization
-
-To personalize the website, edit `src/data/content.js`. This file contains all the text, links, and data used across the site.
-
-- **Personal Info**: Update `personalInfo` object.
-- **Skills**: Update `skills` arrays.
-- **Projects**: Update `projects` array.
-- **Experience**: Update `experience` array.
-- **Research**: Update `research` array.
-
-### Changing the Color Theme
-
-The primary color is set in `tailwind.config.js` under `theme.extend.colors.primary`. You can change the hex codes there to your preferred color palette.
-
-## Deployment
-
-### GitHub Pages
-
-1.  Update `vite.config.js` with your base URL (if needed):
-    ```js
-    export default defineConfig({
-      base: '/your-repo-name/',
-      plugins: [react()],
-    })
-    ```
-2.  Run build:
-    ```bash
-    npm run build
-    ```
-3.  Deploy the `dist` folder.
-
-### Netlify / Vercel
-
-1.  Connect your GitHub repository.
-2.  Set Build Command: `npm run build`
-3.  Set Output Directory: `dist`
-4.  Deploy!
-
-## License
-
-MIT
+*(Note: This documentation is focused strictly on the visual and UX design aspects of the website.)*
