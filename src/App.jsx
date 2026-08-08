@@ -10,15 +10,6 @@ import Research from './components/Research';
 import Hobbies from './components/Hobbies';
 import WeatherBackground from './components/WeatherBackground';
 
-// Hobby Pages
-import Movies from './components/hobbies/Movies';
-import Series from './components/hobbies/Series';
-import Books from './components/hobbies/Books';
-import Blogs from './components/hobbies/Blogs';
-import BlogCategory from './components/hobbies/BlogCategory';
-
-import Travel from './components/hobbies/Travel';
-
 const Home = () => (
   <>
     <Hero />
@@ -38,13 +29,6 @@ function App() {
       <WeatherBackground />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/movies" element={<Movies />} />
-        <Route path="/series" element={<Series />} />
-        <Route path="/books" element={<Books />} />
-
-        <Route path="/travel" element={<Travel />} />
-        <Route path="/blogs" element={<Blogs />} />
-        <Route path="/blogs/:category" element={<BlogCategory />} />
       </Routes>
     </Layout>
   );

@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+DEPLOY_GITHUB.md
+DEPLOY_INSTRUCTIONS.md
