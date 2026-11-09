@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
+#private markdown files
 DEPLOY_GITHUB.md
 DEPLOY_INSTRUCTIONS.md
