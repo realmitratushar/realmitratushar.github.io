@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './ui/Section';
-import { motion } from 'framer-motion';
-import { MdMovie, MdTv, MdBook, MdArticle, MdFlight } from 'react-icons/md';
+import { motion as Motion } from 'framer-motion';
+import { MdMovie, MdTv, MdBook, MdArticle } from 'react-icons/md';
 
 const hobbiesData = [
     {
@@ -25,15 +25,6 @@ const hobbiesData = [
         color: 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400',
         description: 'Diving into fictional worlds and non-fiction insights.'
     },
-
-    // Songs removed as per request
-    {
-        id: 'travel',
-        title: 'Travel',
-        icon: <MdFlight className="w-8 h-8" />,
-        color: 'bg-cyan-100 text-cyan-600 dark:bg-cyan-900/30 dark:text-cyan-400',
-        description: 'Discovering new places and cultures.'
-    },
     {
         id: 'blogs',
         title: 'Blogs',
@@ -45,21 +36,6 @@ const hobbiesData = [
 
 const Hobbies = () => {
     const getHobbyLink = (id) => {
-        const hostname = window.location.hostname;
-        const protocol = window.location.protocol;
-        
-        if (hostname.includes('localhost') || hostname.includes('127.0.0.1')) {
-            const ports = {
-                movies: 5174,
-                series: 5175,
-                books: 5176,
-                travel: 5177,
-                blogs: 5178
-            };
-            const port = ports[id] || 5173;
-            return `${protocol}//localhost:${port}`;
-        }
-        
         return `https://${id}.tusharmitra.in`;
     };
 
@@ -68,7 +44,7 @@ const Hobbies = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
                 {hobbiesData.map((hobby, index) => (
                     <a href={getHobbyLink(hobby.id)} key={hobby.id} className="block group">
-                        <motion.div
+                        <Motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -84,7 +60,7 @@ const Hobbies = () => {
                             <p className="text-slate-600 dark:text-slate-400 text-sm">
                                 {hobby.description}
                             </p>
-                        </motion.div>
+                        </Motion.div>
                     </a>
                 ))}
             </div>
